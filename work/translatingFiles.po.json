@@ -1,0 +1,1087 @@
+{
+    "filename": "translatingFiles.po",
+    "files": [
+        {
+            "translatingFiles.po": [
+                [
+                    "翻译各种格式的文件",
+                    "Translating All Kinds of Files",
+                    "翻译各种格式的文件",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059014",
+                        "id": 2
+                    }
+                ],
+                [
+                    "纯文本文件",
+                    "TXT Files",
+                    "纯文本文件",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059033",
+                        "id": 3
+                    }
+                ],
+                [
+                    "txt纯文本文件没有额外的标签信息，所有片段都支持合并与拆分。",
+                    "TXT files are pure text files. There are no extra tags and all the segments can be merged and splitted.",
+                    "txt纯文本文件没有额外的标签信息，所有片段都支持合并与拆分。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059052",
+                        "id": 4
+                    }
+                ],
+                [
+                    "IDML文件",
+                    "IDML Files",
+                    "IDML文件",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059069",
+                        "id": 5
+                    }
+                ],
+                [
+                    "IDML是Adobe InDesign使用的基于XML的文件格式。",
+                    "IDML is an XML based file format used by Adobe InDesign.",
+                    "IDML是Adobe InDesign使用的基于XML的文件格式。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059084",
+                        "id": 6
+                    }
+                ],
+                [
+                    "最新版的InDesign生成的文件要想给老版本的InDesign打开，往往便要使用IDML格式。",
+                    "Documents made by the latest version of InDesign have to be converted to IDML for use in old versions of InDesign.",
+                    "最新版的InDesign生成的文件要想给老版本的InDesign打开，往往便要使用IDML格式。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059101",
+                        "id": 6
+                    }
+                ],
+                [
+                    "一般InDesign的文件都保存为indd。indd是专有格式，不能被第三方软件进行解析，所以要翻译InDesign文件需要先将其转换为IDML文件。",
+                    "InDesign's default file format is indd, which is a proprietary format. It cannot be opened by third-party applications.  In order to translate InDesign documents, Indd files have to be converted to IDML files.",
+                    "一般InDesign的文件都保存为indd。indd是专有格式，不能被第三方软件进行解析，所以要翻译InDesign文件需要先将其转换为IDML文件。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945095924",
+                        "id": 6
+                    }
+                ],
+                [
+                    "IDML其实是一个zip压缩文件，里面的文件结构如下：",
+                    "An IDML file is a compressed file in nature. Its structure is as follows.",
+                    "IDML其实是一个zip压缩文件，里面的文件结构如下：",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059209",
+                        "id": 7
+                    }
+                ],
+                [
+                    "我们要关注的主要是designmap.xml文件、Spreads文件夹、Stories文件夹和Resources文件夹的内容。",
+                    "What relevant to us are designmap.xml, spreads folder, stories folder and resources folder.",
+                    "我们要关注的主要是designmap.xml文件、Spreads文件夹、Stories文件夹和Resources文件夹的内容。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945105537",
+                        "id": 8
+                    }
+                ],
+                [
+                    "designmap.xml是整个文件的大纲，spread文件是每个页面的结构，story文件则是spread里文本框存储的文本。",
+                    "designmap.xml defines the document's basic structure. A spread file includes the structure of one page or facing pages. A story file contains the text shown in a textframe.",
+                    "designmap.xml是整个文件的大纲，spread文件是每个页面的结构，story文件则是spread里文本框存储的文本。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945105537",
+                        "id": 9
+                    }
+                ],
+                [
+                    "Fonts.xml保存了字体信息，Styles.xml保存了样式信息。",
+                    "Fonts.xml stores font info and Styles.xml stores styles info.",
+                    "Fonts.xml保存了字体信息，Styles.xml保存了样式信息。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945111468",
+                        "id": 9
+                    }
+                ],
+                [
+                    "BasicCAT分别读取designmap.xml文件和Spreads文件，获得story文件在原文中的显示顺序，然后对其文本进行提取。",
+                    "BasicCAT reads designmap.xml and spreads files to get the order of stories shown in the document and extracts texts from story files.",
+                    "BasicCAT分别读取designmap.xml文件和Spreads文件，获得story文件在原文中的显示顺序，然后对其文本进行提取。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945112527",
+                        "id": 10
+                    }
+                ],
+                [
+                    "下面是一个Story文件的内容：",
+                    "Below is what a story file looks like:",
+                    "下面是一个Story文件的内容：",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059635",
+                        "id": 11
+                    }
+                ],
+                [
+                    "段落信息保存在ParagraphStyleRange这个标签里，一个ParagraphStyleRange标签可以包含很多CharacterStyleRange标签，里面是具体的文本。",
+                    "Paragraph info is stored in the ParagraphStyleRange tag. One ParagraphStyleRange tag can include many CharacterStyleRange tags which include texts.",
+                    "段落信息保存在ParagraphStyleRange这个标签里，一个ParagraphStyleRange标签可以包含很多CharacterStyleRange标签，里面是具体的文本。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059649",
+                        "id": 12
+                    }
+                ],
+                [
+                    "IDML文件中的样式分为全局样式和本地样式，全局样式存储在styles.xml文件中，story文件通过AppliedParagraphStyle和AppliedCharacterStyle保存对应的全局样式名，而本地样式被定义在属性和Properties元素里，比如PointSize、FontStyle等。",
+                    "There are two types of style in IDML. One is global style and the other is local style.  Global styles are stored in Styles.xml. Story files use AppliedParagraphStyle and AppliedCharacterStyle attributes to mark global styles. Local styles are defined in the attributes and the properties element in story files, like PointSize and FontStyle.",
+                    "IDML文件中的样式分为全局样式和本地样式，全局样式存储在styles.xml文件中，story文件通过AppliedParagraphStyle和AppliedCharacterStyle保存对应的全局样式名，而本地样式被定义在属性和Properties元素里，比如PointSize、FontStyle等。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945116750",
+                        "id": 12
+                    }
+                ],
+                [
+                    "上面的story文件，BasicCAT将其转换为以下带标签的文本。",
+                    "BasicCAT will convert the story file above into the tagged text below.",
+                    "上面的story文件，BasicCAT将其转换为以下带标签的文本。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059775",
+                        "id": 13
+                    }
+                ],
+                [
+                    "上例中 ``p16`` ， ``c0`` 中的数字对应的styles.xml文件中某个全局样式的顺序。",
+                    "The numbers in ``p16`` , ``c0``  correspond to the rank of some global  style in styles.xml.",
+                    "上例中 ``p16`` ， ``c0`` 中的数字对应的styles.xml文件中某个全局样式的顺序。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945124987",
+                        "id": 14
+                    }
+                ],
+                [
+                    "而 ``<c0 id=\\\"3\\\">`` 中的id属性则是story中characterstylerange的顺序，用于生成目标文件时读取本地样式。",
+                    "The id attribute of ``<c0 id=\\\"3\\\">`` corresponds to the rank of characterstylerange in a story file. The number is used to read local styles when generating target files.",
+                    "而 ``<c0 id=\\\"3\\\">`` 中的id属性则是story中characterstylerange的顺序，用于生成目标文件时读取本地样式。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059870",
+                        "id": 14
+                    }
+                ],
+                [
+                    "c0对应的是默认的没有特殊格式的样式，所以BasicCAT在显示的原文中对其进行隐藏。",
+                    "c0 is the default style that has no special formats. BasicCAT will hide it in the source text shown.",
+                    "c0对应的是默认的没有特殊格式的样式，所以BasicCAT在显示的原文中对其进行隐藏。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059884",
+                        "id": 14
+                    }
+                ],
+                [
+                    "另外段落标签和文本内容为非文本的标签也可以进行隐藏。",
+                    "Paragraph tags and tags without texts can also be hidden.",
+                    "另外段落标签和文本内容为非文本的标签也可以进行隐藏。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059898",
+                        "id": 14
+                    }
+                ],
+                [
+                    "最终，上述内容在BasicCAT中是这样显示的：",
+                    "When the example story is opened by BasicCAT, the result looks like this:",
+                    "最终，上述内容在BasicCAT中是这样显示的：",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059911",
+                        "id": 15
+                    }
+                ],
+                [
+                    "其中c3标签对文字进行了加粗。",
+                    "c3 tag add bold font style to the text.",
+                    "其中c3标签对文字进行了加粗。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059924",
+                        "id": 16
+                    }
+                ],
+                [
+                    "英文字体一般有很多字重，比如特细、细、常规、粗等，而中文字体一般只有一种常规体。",
+                    "English fonts often have many font weights, like Extra Light, Light, Normal and Heavy, while Chinese fonts often have only one regular font weight.",
+                    "英文字体一般有很多字重，比如特细、细、常规、粗等，而中文字体一般只有一种常规体。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059936",
+                        "id": 16
+                    }
+                ],
+                [
+                    "平时在Word里可以设置汉字的加粗是通过软件算法实现的，而IDML中是通过设置字重来实现的。",
+                    "The bold style of Chinese characters in Word is achieved by software algorithm, but IDML uses font weight to do this.",
+                    "平时在Word里可以设置汉字的加粗是通过软件算法实现的，而IDML中是通过设置字重来实现的。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059946",
+                        "id": 16
+                    }
+                ],
+                [
+                    "所以，为了保证英译汉时，标签的效果在生成的译文中也有效，BasicCAT采用具有7种字重的思源宋体作为中文的显示字体，并将英文的字重转换为对应的思源宋体的字重。",
+                    "So, to assure that the tags will make effects for English to Chinese translation projects, BasicCAT uses Source Han Serif as IDML's Chinese font. Source Han Serif has 7 font weights.",
+                    "所以，为了保证英译汉时，标签的效果在生成的译文中也有效，BasicCAT采用具有7种字重的思源宋体作为中文的显示字体，并将英文的字重转换为对应的思源宋体的字重。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059963",
+                        "id": 16
+                    }
+                ],
+                [
+                    "其对应关系如下：",
+                    "Font weight's names of English fonts will be converted to names in Source Han Serif as follows.",
+                    "其对应关系如下：",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945059984",
+                        "id": 16
+                    }
+                ],
+                [
+                    "100->ExtraLight",
+                    "",
+                    "100->ExtraLight",
+                    "translatingFiles.po",
+                    {
+                        "id": 17
+                    }
+                ],
+                [
+                    "200->ExtraLight",
+                    "",
+                    "200->ExtraLight",
+                    "translatingFiles.po",
+                    {
+                        "id": 18
+                    }
+                ],
+                [
+                    "300->Light",
+                    "",
+                    "300->Light",
+                    "translatingFiles.po",
+                    {
+                        "id": 19
+                    }
+                ],
+                [
+                    "400->Regular",
+                    "",
+                    "400->Regular",
+                    "translatingFiles.po",
+                    {
+                        "id": 20
+                    }
+                ],
+                [
+                    "500->Medium",
+                    "",
+                    "500->Medium",
+                    "translatingFiles.po",
+                    {
+                        "id": 21
+                    }
+                ],
+                [
+                    "600->SemiBold",
+                    "",
+                    "600->SemiBold",
+                    "translatingFiles.po",
+                    {
+                        "id": 22
+                    }
+                ],
+                [
+                    "700->Bold",
+                    "",
+                    "700->Bold",
+                    "translatingFiles.po",
+                    {
+                        "id": 23
+                    }
+                ],
+                [
+                    "800->Heavy",
+                    "",
+                    "800->Heavy",
+                    "translatingFiles.po",
+                    {
+                        "id": 24
+                    }
+                ],
+                [
+                    "900->Heavy",
+                    "",
+                    "900->Heavy",
+                    "translatingFiles.po",
+                    {
+                        "id": 25
+                    }
+                ],
+                [
+                    "Normal->Regular",
+                    "",
+                    "Normal->Regular",
+                    "translatingFiles.po",
+                    {
+                        "id": 26
+                    }
+                ],
+                [
+                    "Black->Heavy",
+                    "",
+                    "Black->Heavy",
+                    "translatingFiles.po",
+                    {
+                        "id": 27
+                    }
+                ],
+                [
+                    "所以，为了在生成的idml文件中显示中文，需要安装思源宋体。",
+                    "So, you need to install Source Han Serif to display Chinese in InDesign.",
+                    "所以，为了在生成的idml文件中显示中文，需要安装思源宋体。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060473",
+                        "id": 28
+                    }
+                ],
+                [
+                    "`点此下载思源宋体 <https:\/\/github.com\/adobe-fonts\/source-han-serif\/releases\/download\/1.001R\/SourceHanSerif.ttc>`_",
+                    "`Download Source Han Serif <https:\/\/github.com\/adobe-fonts\/source-han-serif\/releases\/download\/1.001R\/SourceHanSerif.ttc>`_",
+                    "`点此下载思源宋体 <https:\/\/github.com\/adobe-fonts\/source-han-serif\/releases\/download\/1.001R\/SourceHanSerif.ttc>`_",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945138698",
+                        "id": 29
+                    }
+                ],
+                [
+                    "idml中的标签不是必须翻译的，如果不翻，BasicCAT会自动补充c0标签，保证译文不被忽略。",
+                    "Translation of tags in IDML is not necessary. If there is no corresponding tags in target texts, c0 tags will be filled to make sure the translation will not be omitted.",
+                    "idml中的标签不是必须翻译的，如果不翻，BasicCAT会自动补充c0标签，保证译文不被忽略。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060609",
+                        "id": 30
+                    }
+                ],
+                [
+                    "XLIFF文件",
+                    "XLIFF Files",
+                    "XLIFF文件",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060623",
+                        "id": 31
+                    }
+                ],
+                [
+                    "XLIFF是处理提取出来的待翻译文本的一种XML格式。",
+                    "XLIFF is an XML format for processing extracted text to be translated.",
+                    "XLIFF是处理提取出来的待翻译文本的一种XML格式。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060635",
+                        "id": 32
+                    }
+                ],
+                [
+                    "CAT软件利用这一格式存储从docx、html、idml等格式文件提取出来的文本，翻译完成后再利用这一格式文件生成目标文件。",
+                    "CAT tools often use this format to store extracted text from files like docx, html and idml. When translation is done, CAT tools will generate target files based on XLIFF files.",
+                    "CAT软件利用这一格式存储从docx、html、idml等格式文件提取出来的文本，翻译完成后再利用这一格式文件生成目标文件。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060649",
+                        "id": 32
+                    }
+                ],
+                [
+                    "XLIFF是OASIS组织制定的标准，可以作为一种中间格式，在不同的翻译软件之间使用。",
+                    "XLIFF is a standard formulated by the OASIS organization and can be used as an intermediate format between different translation software.",
+                    "XLIFF是OASIS组织制定的标准，可以作为一种中间格式，在不同的翻译软件之间使用。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060662",
+                        "id": 33
+                    }
+                ],
+                [
+                    "XLIFF利用继承自opentag的抽象占位符标签和继承自tmx的封装标签来表示特殊样式。",
+                    "XLIFF uses abstract placeholder tags inherited from opentag and encapsulating tags inherited from TMX to represent special formats.",
+                    "XLIFF利用继承自opentag的抽象占位符标签和继承自tmx的封装标签来表示特殊样式。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060674",
+                        "id": 34
+                    }
+                ],
+                [
+                    "比如对于This is **bold**，在xliff中有两种表示方法。",
+                    "For example, there are two ways to represent \"This is **bold**.\" in XLIFF.",
+                    "比如对于This is **bold**，在xliff中有两种表示方法。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060684",
+                        "id": 35
+                    }
+                ],
+                [
+                    "占位符标签：",
+                    "Abstract placeholder:",
+                    "占位符标签：",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060695",
+                        "id": 36
+                    }
+                ],
+                [
+                    "封装标签：",
+                    "Encapsulation:",
+                    "封装标签：",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060708",
+                        "id": 37
+                    }
+                ],
+                [
+                    "抽象占位符标签的好处是针对不同格式，抽象出来的内容可以一样。",
+                    "The placeholder way abstracts tags to its preset placeholder tags.",
+                    "抽象占位符标签的好处是针对不同格式，抽象出来的内容可以一样。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060720",
+                        "id": 38
+                    }
+                ],
+                [
+                    "比如html、rtf中表示加粗，html是 ``<b>`` ，而rtf中是 ``\\\\b`` ，抽象之后都变成了g标签，而且显示的内容更少。",
+                    "To indicate bold, HTML uses ``<b>`` and RTF uses ``\\\\b``. They all become ``<g>`` in XLIFF. It also shows less tags info.",
+                    "比如html、rtf中表示加粗，html是 ``<b>`` ，而rtf中是 ``\\\\b`` ，抽象之后都变成了g标签，而且显示的内容更少。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060735",
+                        "id": 38
+                    }
+                ],
+                [
+                    "但是抽象之后，原文标签中的含义也被隐去了。",
+                    "But after this abstraction, we cannot tell what function this tag has.",
+                    "但是抽象之后，原文标签中的含义也被隐去了。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060746",
+                        "id": 38
+                    }
+                ],
+                [
+                    "在BasicCAT中翻译xliff中带格式的内容时，会显示各种标签内容。",
+                    "When translating XLIFF files, there will be tags in the source text.",
+                    "在BasicCAT中翻译xliff中带格式的内容时，会显示各种标签内容。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060763",
+                        "id": 39
+                    }
+                ],
+                [
+                    "标签内容如果不翻，生成的译文中会自动在结尾处补上缺失的标签，但有可能导致译文内容缺损。",
+                    "If tags are not put in the target text, BasicCAT will fill them at the end of target text. But this may result in incomplete content.",
+                    "标签内容如果不翻，生成的译文中会自动在结尾处补上缺失的标签，但有可能导致译文内容缺损。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060784",
+                        "id": 39
+                    }
+                ],
+                [
+                    "标签内容如果不翻，生成的译文中会自动在结尾处补上缺失的标签，但有可能导致译文内容缺损。",
+                    "If tags are not put in the target text, BasicCAT will fill them at the end of target text. But this may result in incomplete content.",
+                    "标签内容如果不翻，生成的译文中会自动在结尾处补上缺失的标签，但有可能导致译文内容缺损。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060786",
+                        "id": 40
+                    }
+                ],
+                [
+                    "以下是教程idml部分的范例文件用okapi提取出来的xliff文件的内容：",
+                    "Below is the XLIFF extracted by okapi from the story file example in IDML part.",
+                    "以下是教程idml部分的范例文件用okapi提取出来的xliff文件的内容：",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060799",
+                        "id": 41
+                    }
+                ],
+                [
+                    "上述内容在BasicCAT中是这样显示的，对片段中开头结尾处的成对标签或单个标签进行了隐藏：",
+                    "When the XLIFF file is opened by BasicCAT, the result looks like below. Single tag and paired tags at both sides of the segment will be hidden.",
+                    "上述内容在BasicCAT中是这样显示的，对片段中开头结尾处的成对标签或单个标签进行了隐藏：",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060812",
+                        "id": 42
+                    }
+                ],
+                [
+                    "PO文件",
+                    "PO Files",
+                    "PO文件",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060824",
+                        "id": 43
+                    }
+                ],
+                [
+                    "PO是和xliff类似的一种格式，最初是GNU用来本地化C语言程序的。",
+                    "PO is a format similar to XLIFF. It is designed to localize C programs at first.",
+                    "PO是和xliff类似的一种格式，最初是GNU用来本地化C语言程序的。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060841",
+                        "id": 44
+                    }
+                ],
+                [
+                    "以下是教程idml部分的范例文件用okapi提取出来的po文件的内容：",
+                    "Below is PO content extracted by okapi from the example IDML story file.",
+                    "以下是教程idml部分的范例文件用okapi提取出来的po文件的内容：",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060862",
+                        "id": 45
+                    }
+                ],
+                [
+                    "msgctxt后面是上下文信息，msgid存储原文内容，msgstr存储译文内容。",
+                    "msgctxt stores context info. msgid stores the source text and msgstr stores the target text.",
+                    "msgctxt后面是上下文信息，msgid存储原文内容，msgstr存储译文内容。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060875",
+                        "id": 46
+                    }
+                ],
+                [
+                    "okapi生成的PO也使用了标签来表示特殊样式。",
+                    "PO files created by okapi also uses tags to represent formats.",
+                    "okapi生成的PO也使用了标签来表示特殊样式。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060903",
+                        "id": 46
+                    }
+                ],
+                [
+                    "上述内容在BasicCAT中是这样显示的，和xliff一样，对片段中的开头结尾处的成对标签或单个标签进行了隐藏：",
+                    "Below is how it looks when translating the PO file in BasicCAT. Like XLIFF, Single tag and paired tags at both sides of the segment will be hidden.",
+                    "上述内容在BasicCAT中是这样显示的，和xliff一样，对片段中的开头结尾处的成对标签或单个标签进行了隐藏：",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060919",
+                        "id": 47
+                    }
+                ],
+                [
+                    "PDF文件",
+                    "PDF Files",
+                    "PDF文件",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060940",
+                        "id": 48
+                    }
+                ],
+                [
+                    "PDF文件是较难处理的格式，可以用Word、ABBYY、Solid Document Converter等工具将其转换为Word，但原来的格式往往不能得到很好的保留。",
+                    "PDF file is a difficult format to process. It can be converted to docx by tools such as Word, ABBYY, Solid Document Converter, etc. But the original format cannot be well preserved.",
+                    "PDF文件是较难处理的格式，可以用Word、ABBYY、Solid Document Converter等工具将其转换为Word，但原来的格式往往不能得到很好的保留。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060965",
+                        "id": 49
+                    }
+                ],
+                [
+                    "用Adobe Acrobat可以修改文字，但有诸多限制。",
+                    "Adobe Acrobat can be used to modify text, but there are many limitations.",
+                    "用Adobe Acrobat可以修改文字，但有诸多限制。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060978",
+                        "id": 49
+                    }
+                ],
+                [
+                    "PDF文件往往是由另一种格式的文件生成的，比如docx、idml等，如果能找到源文件是最好的。",
+                    "PDF files are often generated by files in another format, such as docx, idml, etc. It's better to handle the source file directly.",
+                    "PDF文件往往是由另一种格式的文件生成的，比如docx、idml等，如果能找到源文件是最好的。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945060994",
+                        "id": 50
+                    }
+                ],
+                [
+                    "如果要求保留格式却又没有源文件，只能翻译后试着重新排版。",
+                    "If you want to preserve the formats but do not have the source file, you have first translate text and do desktop publishing from anew.",
+                    "如果要求保留格式却又没有源文件，只能翻译后试着重新排版。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061015",
+                        "id": 50
+                    }
+                ],
+                [
+                    "在出版社翻译InDesign文件，一般交给译员一个PDF文档，译员将译文排版成一个Word，然后交给排版人员在InDesign中进行替换。",
+                    "When translating InDesign documents, publishing houses often give the PDF document to the translator. The translator types the translation into a Word and then gives it to the typesetter to replace sources texts with target texts in InDesign.",
+                    "在出版社翻译InDesign文件，一般交给译员一个PDF文档，译员将译文排版成一个Word，然后交给排版人员在InDesign中进行替换。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061040",
+                        "id": 51
+                    }
+                ],
+                [
+                    "这时，我们需要做的就是提取PDF的文字进行翻译。",
+                    "In such a case, what translators have to do is to extract the text from PDF.",
+                    "这时，我们需要做的就是提取PDF的文字进行翻译。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061052",
+                        "id": 51
+                    }
+                ],
+                [
+                    "BasicCAT自带了PDF转文字的工具，可以通过菜单栏Tools->PDF2TXT打开。",
+                    "BasicCAT has a PDF to Text tool. It can be accessed by menu \"Tools->PDF2TXT\".",
+                    "BasicCAT自带了PDF转文字的工具，可以通过菜单栏Tools->PDF2TXT打开。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061065",
+                        "id": 52
+                    }
+                ],
+                [
+                    "如果PDF的文字可以提取，那可以直接提取出来。",
+                    "If PDF's text can be extracted, it can be extracted directly by pressing the \"strip\" button.",
+                    "如果PDF的文字可以提取，那可以直接提取出来。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061081",
+                        "id": 52
+                    }
+                ],
+                [
+                    "如果不行，便使用开源的OCR软件tesseract进行识别。",
+                    "If not, the open source OCR software Tesseract will be used.",
+                    "如果不行，便使用开源的OCR软件tesseract进行识别。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061102",
+                        "id": 52
+                    }
+                ],
+                [
+                    "工具支持添加页码信息，还可以针对InDesign生成的对页进行处理。",
+                    "You can add page number to the extracted text. It can also add facing pages number like Page 4-5.",
+                    "工具支持添加页码信息，还可以针对InDesign生成的对页进行处理。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061114",
+                        "id": 53
+                    }
+                ],
+                [
+                    "PDF中的文字是没有段落信息的，所以默认提取出来的每行文字后面都有回车，PDF2TXT提供一个reflow功能，可以自动去除多余的回车。",
+                    "Texts in PDF do not have paragraph info. They are just fixed dots in a page. The extracted text may have newline at the end of each line. PDF2TXT provides \"reflow\" function to remove extra newlines.",
+                    "PDF中的文字是没有段落信息的，所以默认提取出来的每行文字后面都有回车，PDF2TXT提供一个reflow功能，可以自动去除多余的回车。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061143",
+                        "id": 54
+                    }
+                ],
+                [
+                    "关于tesseract的安装，Windows可以 `在此 <https:\/\/pan.baidu.com\/s\/1Pij20PPfVLUqXcBGc4ueSg>`_ 下载一份程序，运行PDF2TXT时会提示设置tesseract的路径，选择即可。",
+                    "About the installation of tesseract, Windows users can download a copy from `here <https:\/\/pan.baidu.com\/s\/1Pij20PPfVLUqXcBGc4ueSg>`_\\ . PDF2TXT will ask for the path to tessearct.exe.",
+                    "关于tesseract的安装，Windows可以 `在此 <https:\/\/pan.baidu.com\/s\/1Pij20PPfVLUqXcBGc4ueSg>`_ 下载一份程序，运行PDF2TXT时会提示设置tesseract的路径，选择即可。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945151484",
+                        "id": 55
+                    }
+                ],
+                [
+                    "Linux和macOS(homebrew)用户可以直接安装tesseract-ocr这个包，并下载对应语言的模型文件。",
+                    "Linux and macOS(with homebrew) users can install tesseract-ocr directly. You may need to download extra language models.",
+                    "Linux和macOS(homebrew)用户可以直接安装tesseract-ocr这个包，并下载对应语言的模型文件。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061239",
+                        "id": 56
+                    }
+                ],
+                [
+                    "利用Okapi翻译其它格式文件",
+                    "Using Okapi to Translate Files in Other Formats",
+                    "利用Okapi翻译其它格式文件",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061249",
+                        "id": 57
+                    }
+                ],
+                [
+                    "`Okapi <http:\/\/okapiframework.org\/>`_ 是一套开源跨平台的翻译组件。",
+                    "`Okapi <http:\/\/okapiframework.org\/>`_ is a set of translation components.",
+                    "`Okapi <http:\/\/okapiframework.org\/>`_ 是一套开源跨平台的翻译组件。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945155456",
+                        "id": 58
+                    }
+                ],
+                [
+                    "有用于检查译文质量的checkmate、修改句段分割规则的Ratel，还有用于执行各种翻译与本地化任务的Rainbow。",
+                    "It has Checkmate to check translation quality, Ratel to edit segmentation rule and Rainbow to do all kinds of translation and localization tasks.",
+                    "有用于检查译文质量的checkmate、修改句段分割规则的Ratel，还有用于执行各种翻译与本地化任务的Rainbow。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061335",
+                        "id": 58
+                    }
+                ],
+                [
+                    "要翻译其它格式文件，我们主要需要使用Rainbow。",
+                    "To translate files in other formats, we need to use Rainbow.",
+                    "要翻译其它格式文件，我们主要需要使用Rainbow。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061346",
+                        "id": 59
+                    }
+                ],
+                [
+                    "从源文件生成xliff或者po文件",
+                    "Create XLIFF or PO files from source files",
+                    "从源文件生成xliff或者po文件",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061355",
+                        "id": 60
+                    }
+                ],
+                [
+                    "打开Rainbow，把要翻译的源文件拖拽进去。",
+                    "Open Rainbow and drag source files into the window.",
+                    "打开Rainbow，把要翻译的源文件拖拽进去。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061365",
+                        "id": 61
+                    }
+                ],
+                [
+                    "进行原文和译文、文件编码等设置。",
+                    "Set the source language, target languages, file encoding, etc.",
+                    "进行原文和译文、文件编码等设置。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061376",
+                        "id": 62
+                    }
+                ],
+                [
+                    "点击菜单Utilities->Translation Kit Creation，选择要生成xliff、po还是其它中间格式，选择生成的目标位置（默认为源文件所在目录）。",
+                    "Click menu \"Utilities->Translation Kit Creation\". You can choose to generate XLIFF, PO or other intermediate formats. The default output path is the source files' folder.",
+                    "点击菜单Utilities->Translation Kit Creation，选择要生成xliff、po还是其它中间格式，选择生成的目标位置（默认为源文件所在目录）。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061388",
+                        "id": 63
+                    }
+                ],
+                [
+                    "点击执行后，在目标位置会生成一个pack1文件夹，里面的work文件夹存放了生成的xliff等格式文件。",
+                    "After the execution is done, there will be a folder named pack1 in the output path. In the work folder are generated files.",
+                    "点击执行后，在目标位置会生成一个pack1文件夹，里面的work文件夹存放了生成的xliff等格式文件。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061400",
+                        "id": 64
+                    }
+                ],
+                [
+                    "从生成的项目导出目标文件",
+                    "Generate target files from the previously created okapi project",
+                    "从生成的项目导出目标文件",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061412",
+                        "id": 65
+                    }
+                ],
+                [
+                    "翻译完成后，把xliff等格式文件放回work文件夹。",
+                    "When the translation is done, put the translated files back into the work folder.",
+                    "翻译完成后，把xliff等格式文件放回work文件夹。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061423",
+                        "id": 66
+                    }
+                ],
+                [
+                    "然后添加manifest.rkm到Rainbow中。",
+                    "Open Rainbow and drag manifest.rkm into it.",
+                    "然后添加manifest.rkm到Rainbow中。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945161851",
+                        "id": 66
+                    }
+                ],
+                [
+                    "点击菜单Utilities->Translation Kit Post-processing，可以生成目标文件。",
+                    "Click menu \"Utilities->Translation Kit Post-processing\" to generate target files.",
+                    "点击菜单Utilities->Translation Kit Post-processing，可以生成目标文件。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061509",
+                        "id": 67
+                    }
+                ],
+                [
+                    "`在此 <http:\/\/okapiframework.org\/wiki\/index.php?title=Filters>`_ 查看Okapi支持的文件格式。",
+                    "Visit `here <http:\/\/okapiframework.org\/wiki\/index.php?title=Filters>`_ to see what formats Okapi supports.",
+                    "`在此 <http:\/\/okapiframework.org\/wiki\/index.php?title=Filters>`_ 查看Okapi支持的文件格式。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945178249",
+                        "id": 68
+                    }
+                ],
+                [
+                    "利用Felix翻译Word文件",
+                    "Using Felix to Translate Word Files",
+                    "利用Felix翻译Word文件",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061674",
+                        "id": 69
+                    }
+                ],
+                [
+                    "BasicCAT并没有直接支持Word文档，但可以通过okapi将word转换为xliff来进行翻译。",
+                    "BasicCAT does not directly support Word documents, translation. We can use okapi to convert docx to xliff to translate.",
+                    "BasicCAT并没有直接支持Word文档，但可以通过okapi将word转换为xliff来进行翻译。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061684",
+                        "id": 70
+                    }
+                ],
+                [
+                    "另一种方式则是使用Felix CAT。",
+                    "Another way is to use Felix CAT.",
+                    "另一种方式则是使用Felix CAT。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061694",
+                        "id": 71
+                    }
+                ],
+                [
+                    "Felix是微软Office上运行的一套宏，可以在Word中利用翻译记忆完成翻译，一切操作都在Word中进行。",
+                    "Felix is a set of macros running on Microsoft Office. You can translate directly in Word and use translation memory.",
+                    "Felix是微软Office上运行的一套宏，可以在Word中利用翻译记忆完成翻译，一切操作都在Word中进行。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061704",
+                        "id": 71
+                    }
+                ],
+                [
+                    "关于felix的操作，可以访问\\\\ `官网 <http:\/\/felix-cat.com\/>`_\\\\ 或者阅读这篇文章：`在Office里运行的CAT软件 <http:\/\/blog.xulihang.me\/CAT-Tools-work-with-microsoft-office\/>`_ 。",
+                    "About how to use Felix, visit its `homepage <http:\/\/felix-cat.com\/>`_  to learn more.",
+                    "关于felix的操作，可以访问\\\\ `官网 <http:\/\/felix-cat.com\/>`_\\\\ 或者阅读这篇文章：`在Office里运行的CAT软件 <http:\/\/blog.xulihang.me\/CAT-Tools-work-with-microsoft-office\/>`_ 。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945186839",
+                        "id": 72
+                    }
+                ],
+                [
+                    "下面讲讲如何利用BasicCAT翻译docx的文本，然后利用felix进行回填。",
+                    "Here is how we use BasicCAT to translate the text of docx files and use Felix to fill the translation in Word.",
+                    "下面讲讲如何利用BasicCAT翻译docx的文本，然后利用felix进行回填。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061838",
+                        "id": 73
+                    }
+                ],
+                [
+                    "将Word转存为TXT，导入BasicCAT中翻译。",
+                    "Export Word to TXT to translate in BasicCAT.",
+                    "将Word转存为TXT，导入BasicCAT中翻译。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061850",
+                        "id": 74
+                    }
+                ],
+                [
+                    "BasicCAT里翻译好后导出翻译记忆，导入Felix。",
+                    "After the translation is done, export the translation memory to TMX and import it into Felix.",
+                    "BasicCAT里翻译好后导出翻译记忆，导入Felix。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061864",
+                        "id": 75
+                    }
+                ],
+                [
+                    "通过Word的Felix加载项操作界面进入Felix的设置界面，取消勾选Format标签下的勾选框，这样替换纯文本的翻译记忆时，不会修改原文的格式。",
+                    "In Word's add-in tab, you can access Felix's interface. In Felix's settings, uncheck the checkboxes in Format Tab. By doing this, when Felix replaces source text with target text, the original formats will be preserved.",
+                    "通过Word的Felix加载项操作界面进入Felix的设置界面，取消勾选Format标签下的勾选框，这样替换纯文本的翻译记忆时，不会修改原文的格式。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061879",
+                        "id": 76
+                    }
+                ],
+                [
+                    "利用Alt+G快捷键，可以快速地进行译文的替换。",
+                    "You can use the shortcut key ALT+G to quickly fill translations.",
+                    "利用Alt+G快捷键，可以快速地进行译文的替换。",
+                    "translatingFiles.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945061899",
+                        "id": 77
+                    }
+                ]
+            ]
+        }
+    ]
+}

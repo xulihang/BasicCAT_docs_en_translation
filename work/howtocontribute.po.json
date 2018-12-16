@@ -1,0 +1,64 @@
+{
+    "filename": "howtocontribute.po",
+    "files": [
+        {
+            "howtocontribute.po": [
+                [
+                    "帮助BasicCAT项目发展",
+                    "How to Contribute",
+                    "帮助BasicCAT项目发展",
+                    "howtocontribute.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544944359385",
+                        "id": 2
+                    }
+                ],
+                [
+                    "`BasicCAT <https:\/\/github.com\/xulihang\/BasicCAT\/>`_ 是遵循GPLv2协议的开源项目，欢迎大家为项目做贡献。",
+                    "`BasicCAT <https:\/\/github.com\/xulihang\/BasicCAT\/>`_ is an open source project licensed under GPLv2. Contributions to help BasicCAT grow are appreciated.",
+                    "`BasicCAT <https:\/\/github.com\/xulihang\/BasicCAT\/>`_ 是遵循GPLv2协议的开源项目，欢迎大家为项目做贡献。",
+                    "howtocontribute.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544944368898",
+                        "id": 3
+                    }
+                ],
+                [
+                    "如果您会开发软件，可以帮助开发插件、修改项目代码。",
+                    "If you are a developer, you can develop plugins or make a pull request to improve BasicCAT's code.",
+                    "如果您会开发软件，可以帮助开发插件、修改项目代码。",
+                    "howtocontribute.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544944359569",
+                        "id": 4
+                    }
+                ],
+                [
+                    "如果您在使用过程中碰到问题，或者有什么建议，欢迎在项目的github页面提交issues。",
+                    "If you are a user and come across some issues or have some suggestions, you can open an issue in BasicCAT's github repository.",
+                    "如果您在使用过程中碰到问题，或者有什么建议，欢迎在项目的github页面提交issues。",
+                    "howtocontribute.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544944359570",
+                        "id": 5
+                    }
+                ],
+                [
+                    "如果您会翻译，可以帮助翻译网站、文档以及程序的界面，同样通过提交issues来提交请求。",
+                    "If you want to translate BasicCAT's website, documentation or its interface, you can also open an issue to apply.",
+                    "如果您会翻译，可以帮助翻译网站、文档以及程序的界面，同样通过提交issues来提交请求。",
+                    "howtocontribute.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544944359572",
+                        "id": 6
+                    }
+                ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,960 @@
+{
+    "filename": "advancedFeatures.po",
+    "files": [
+        {
+            "advancedFeatures.po": [
+                [
+                    "进阶操作",
+                    "Advanced Features",
+                    "进阶操作",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308213",
+                        "id": 2
+                    }
+                ],
+                [
+                    "机器翻译",
+                    "Machine Translation",
+                    "机器翻译",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308251",
+                        "id": 3
+                    }
+                ],
+                [
+                    "BasicCAT预置了以下9种机器翻译引擎的API的支持：",
+                    "BasicCAT has a built-in support for 7 machine translation services:",
+                    "BasicCAT预置了以下9种机器翻译引擎的API的支持：",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308294",
+                        "id": 4
+                    }
+                ],
+                [
+                    "`百度 <http:\/\/api.fanyi.baidu.com\/api\/trans\/product\/prodinfo>`_",
+                    "  ",
+                    "`百度 <http:\/\/api.fanyi.baidu.com\/api\/trans\/product\/prodinfo>`_",
+                    "advancedFeatures.po",
+                    {
+                        "id": 5
+                    }
+                ],
+                [
+                    "`谷歌 <https:\/\/cloud.google.com\/translate\/>`_",
+                    " ",
+                    "`谷歌 <https:\/\/cloud.google.com\/translate\/>`_",
+                    "advancedFeatures.po",
+                    {
+                        "id": 6
+                    }
+                ],
+                [
+                    "`微软必应 <https:\/\/azure.microsoft.com\/services\/cognitive-services\/translator-text-api\/>`_",
+                    " ",
+                    "`微软必应 <https:\/\/azure.microsoft.com\/services\/cognitive-services\/translator-text-api\/>`_",
+                    "advancedFeatures.po",
+                    {
+                        "id": 7
+                    }
+                ],
+                [
+                    "`小牛 <https:\/\/niutrans.vip\/index\/niutrans\/index.html>`_",
+                    "  ",
+                    "`小牛 <https:\/\/niutrans.vip\/index\/niutrans\/index.html>`_",
+                    "advancedFeatures.po",
+                    {
+                        "id": 8
+                    }
+                ],
+                [
+                    "`有道 <http:\/\/ai.youdao.com\/>`_",
+                    " ",
+                    "`有道 <http:\/\/ai.youdao.com\/>`_",
+                    "advancedFeatures.po",
+                    {
+                        "id": 9
+                    }
+                ],
+                [
+                    "`Yandex <https:\/\/tech.yandex.com\/translate\/>`_",
+                    " ",
+                    "`Yandex <https:\/\/tech.yandex.com\/translate\/>`_",
+                    "advancedFeatures.po",
+                    {
+                        "id": 10
+                    }
+                ],
+                [
+                    "`MyMemory <https:\/\/mymemory.translated.net\/doc\/spec.php>`_",
+                    "  ",
+                    "`MyMemory <https:\/\/mymemory.translated.net\/doc\/spec.php>`_",
+                    "advancedFeatures.po",
+                    {
+                        "id": 11
+                    }
+                ],
+                [
+                    "`搜狗 <http:\/\/ai.sogou.com\/ai-docs\/api\/fanyi>`_",
+                    " ",
+                    "`搜狗 <http:\/\/ai.sogou.com\/ai-docs\/api\/fanyi>`_",
+                    "advancedFeatures.po",
+                    {
+                        "id": 12
+                    }
+                ],
+                [
+                    "`腾讯翻译君 <https:\/\/ai.qq.com\/doc\/nlptrans.shtml>`_",
+                    "  ",
+                    "`腾讯翻译君 <https:\/\/ai.qq.com\/doc\/nlptrans.shtml>`_",
+                    "advancedFeatures.po",
+                    {
+                        "id": 13
+                    }
+                ],
+                [
+                    "调用结果如下图。",
+                    "The result will show in the lower area.",
+                    "调用结果如下图。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308324",
+                        "id": 14
+                    }
+                ],
+                [
+                    "您需要申请翻译API以实现调用，每个机器翻译申请的链接已经附在上面的列表中，其中MyMemory只需要配置一个email地址即可使用。",
+                    "You have to apply for API keys to use these translation services. Links to apply have been included in the MT list above. MyMemory does not require API key and only needs to give an email address.",
+                    "您需要申请翻译API以实现调用，每个机器翻译申请的链接已经附在上面的列表中，其中MyMemory只需要配置一个email地址即可使用。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308358",
+                        "id": 15
+                    }
+                ],
+                [
+                    "划词检索和自动完成功能需要至少配置一个机器翻译才能使用。",
+                    "You need to set up at least one machine translation to use selecting words to get meanings and autocomplete functions.",
+                    "划词检索和自动完成功能需要至少配置一个机器翻译才能使用。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308389",
+                        "id": 15
+                    }
+                ],
+                [
+                    "点击菜单Options->Preferences进入设置界面，选择Machine Translation进行翻译API的配置。",
+                    "Use Menu \"Options->Preferences\" to enter the setup interface.",
+                    "点击菜单Options->Preferences进入设置界面，选择Machine Translation进行翻译API的配置。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308416",
+                        "id": 16
+                    }
+                ],
+                [
+                    "机器翻译的API服务都有使用限制，百度和微软每个月200万词免费额度；",
+                    "These translation services have usage limits. Baidu and Bing have a 2million limit per month;",
+                    "机器翻译的API服务都有使用限制，百度和微软每个月200万词免费额度；",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308445",
+                        "id": 17
+                    }
+                ],
+                [
+                    "MyMemory每天10000词；",
+                    "MyMemory has a limit of 10,000 words per day;",
+                    "MyMemory每天10000词；",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308478",
+                        "id": 17
+                    }
+                ],
+                [
+                    "Yandex每天1百万词，每月不超1千万词。",
+                    "Yandex has a limit of 1million words per day and 10million words per month.",
+                    "Yandex每天1百万词，每月不超1千万词。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308509",
+                        "id": 17
+                    }
+                ],
+                [
+                    "其它需要付费使用，小牛和有道注册时会附赠百万词的额度。",
+                    "Other services are paid services. Niutrans and youdao will give away 1million words upon registry.",
+                    "其它需要付费使用，小牛和有道注册时会附赠百万词的额度。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308538",
+                        "id": 17
+                    }
+                ],
+                [
+                    "预翻译",
+                    "Pre-translate",
+                    "预翻译",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308570",
+                        "id": 18
+                    }
+                ],
+                [
+                    "预翻译指利用翻译记忆或者机器翻译预先对全文进行翻译。",
+                    "You can use translation memory or machine translation to pre-translate the whole text.",
+                    "预翻译指利用翻译记忆或者机器翻译预先对全文进行翻译。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308605",
+                        "id": 19
+                    }
+                ],
+                [
+                    "点击菜单Project->Pre-translate打开对话框，选择使用翻译记忆或者机器翻译进行预翻译。",
+                    "Use Menu \"Project->Pre-translate\" to open the dialog and choose TM or MT to do this.",
+                    "点击菜单Project->Pre-translate打开对话框，选择使用翻译记忆或者机器翻译进行预翻译。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308637",
+                        "id": 19
+                    }
+                ],
+                [
+                    "可以设置翻译记忆的最低匹配率和选择使用哪个机器翻译引擎。",
+                    "You can set the lowest match rate and which machine translation service to use.",
+                    "可以设置翻译记忆的最低匹配率和选择使用哪个机器翻译引擎。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308664",
+                        "id": 19
+                    }
+                ],
+                [
+                    "划词取义",
+                    "Select words to get meanings.",
+                    "划词取义",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308666",
+                        "id": 20
+                    }
+                ],
+                [
+                    "利用机器翻译和在线词典API，BasicCAT提供划词检索功能。",
+                    "BasicCAT can show the meanings of selected text based on machine translation and online dictionary.",
+                    "利用机器翻译和在线词典API，BasicCAT提供划词检索功能。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308696",
+                        "id": 21
+                    }
+                ],
+                [
+                    "在原文中选中需要检索的部分，可以显示机器翻译或者在线词典的内容。",
+                    "",
+                    "在原文中选中需要检索的部分，可以显示机器翻译或者在线词典的内容。",
+                    "advancedFeatures.po",
+                    {
+                        "id": 21
+                    }
+                ],
+                [
+                    "需要在设置中勾选这一功能，并配置至少一个机器翻译。",
+                    "You need to check this function in settings and enable at least one machine translation service.",
+                    "需要在设置中勾选这一功能，并配置至少一个机器翻译。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308760",
+                        "id": 21
+                    }
+                ],
+                [
+                    "点击出现的下拉框中的项目可以把结果添加到译文输入框。",
+                    "You can fill the result to the translation textarea by clicking the item in the dropdown list.",
+                    "点击出现的下拉框中的项目可以把结果添加到译文输入框。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308789",
+                        "id": 22
+                    }
+                ],
+                [
+                    "在线词典",
+                    "Online Dictionary",
+                    "在线词典",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308819",
+                        "id": 23
+                    }
+                ],
+                [
+                    "因为离线词典往往具有版权问题，所以BasicCAT选择了集成在线词典。",
+                    "BasicCAT integrates online dictionaries as offline dictionaries have copyright issues.",
+                    "因为离线词典往往具有版权问题，所以BasicCAT选择了集成在线词典。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308849",
+                        "id": 24
+                    }
+                ],
+                [
+                    "在原文中选中一个单词后，点击菜单Edit->Show online dictionary dropdown，或者使用快捷键Ctrl+D，会出现包含一串在线词典名字的下拉列表。",
+                    "Select a word in the source text and click menu \"Edit->Show online dictionary dropdown\" or use shortcut key CTRL+D. A dropdown list of online dictionary names will appear.",
+                    "在原文中选中一个单词后，点击菜单Edit->Show online dictionary dropdown，或者使用快捷键Ctrl+D，会出现包含一串在线词典名字的下拉列表。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308877",
+                        "id": 25
+                    }
+                ],
+                [
+                    "点击后会打开一个浏览窗口。",
+                    "A browse window will be opened.",
+                    "点击后会打开一个浏览窗口。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308908",
+                        "id": 25
+                    }
+                ],
+                [
+                    "选中想输入的释义后，按Add Selected可以填充进译文输入框。",
+                    "Use \"Add Selected\" Button to fill selected text in the browser to the translation textarea.",
+                    "选中想输入的释义后，按Add Selected可以填充进译文输入框。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308941",
+                        "id": 26
+                    }
+                ],
+                [
+                    "按Open in browser可以使用本地浏览器访问该页面。",
+                    "Press \"Open in browser\" to open the page in local browsers.",
+                    "按Open in browser可以使用本地浏览器访问该页面。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945308969",
+                        "id": 26
+                    }
+                ],
+                [
+                    "你可以通过修改项目文件夹下的config文件夹里的dictList.",
+                    "",
+                    "你可以通过修改项目文件夹下的config文件夹里的dictList.",
+                    "advancedFeatures.po",
+                    {
+                        "id": 27
+                    }
+                ],
+                [
+                    "txt添加其它在线词典。",
+                    "",
+                    "txt添加其它在线词典。",
+                    "advancedFeatures.po",
+                    {
+                        "id": 27
+                    }
+                ],
+                [
+                    "语言检查",
+                    "Language Check",
+                    "语言检查",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309057",
+                        "id": 28
+                    }
+                ],
+                [
+                    "BasicCAT利用 `Language Tool <https:\/\/www.languagetool.org\/>`_ 作为语言检查的后端。",
+                    " ",
+                    "BasicCAT利用 `Language Tool <https:\/\/www.languagetool.org\/>`_ 作为语言检查的后端。",
+                    "advancedFeatures.po",
+                    {
+                        "id": 29
+                    }
+                ],
+                [
+                    "Language Tool是一款开源的拼写和语法检查器。",
+                    "Language Tool is an open source spelling and grammar checker.",
+                    "Language Tool是一款开源的拼写和语法检查器。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309083",
+                        "id": 29
+                    }
+                ],
+                [
+                    "在一个片段翻译完成，按下回车切换到下一片段后，会对上一片段进行检查。",
+                    "When a segment is translated and you press \"Enter\" to switch to the next one, it will check the previous segment.",
+                    "在一个片段翻译完成，按下回车切换到下一片段后，会对上一片段进行检查。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309111",
+                        "id": 30
+                    }
+                ],
+                [
+                    "如果有错误，会在下方的功能区进行提示，并在输入框位置显示一个备选正确内容的下拉列表。",
+                    "Errors will be shown in the lower area. A dropdown list containing the possible corrections will also be shown below the translation textarea.",
+                    "如果有错误，会在下方的功能区进行提示，并在输入框位置显示一个备选正确内容的下拉列表。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309143",
+                        "id": 30
+                    }
+                ],
+                [
+                    "点击功能区的replacement项目或者下拉列表的项目可以替换译文中的错误为正确的内容。",
+                    "By clicking the replacement item in the lower area or the dropdown list item, the mistakes will be replaced to the right one.",
+                    "点击功能区的replacement项目或者下拉列表的项目可以替换译文中的错误为正确的内容。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309173",
+                        "id": 30
+                    }
+                ],
+                [
+                    "要使用语言检查，你需要先下载LanguageTool。",
+                    "To use language check, you need to download languagetool first.",
+                    "要使用语言检查，你需要先下载LanguageTool。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309200",
+                        "id": 31
+                    }
+                ],
+                [
+                    "`LanguageTool 4.3 下载 <https:\/\/www.languagetool.org\/download\/LanguageTool-4.3.zip>`_",
+                    " ",
+                    "`LanguageTool 4.3 下载 <https:\/\/www.languagetool.org\/download\/LanguageTool-4.3.zip>`_",
+                    "advancedFeatures.po",
+                    {
+                        "id": 32
+                    }
+                ],
+                [
+                    "下载后解压至任意位置，然后打开BasicCAT，点击菜单Tools->Server Launcher，打开服务启动器的窗口，选择存放languagetool-server.",
+                    "Unzip the downloaded, open BasicCAT, click menu \"Tools->Server Launcher\", and you can setup the path to the folder containing the file named languagetool-server.jar.",
+                    "下载后解压至任意位置，然后打开BasicCAT，点击菜单Tools->Server Launcher，打开服务启动器的窗口，选择存放languagetool-server.",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309242",
+                        "id": 33
+                    }
+                ],
+                [
+                    "jar这一文件的文件夹。",
+                    "",
+                    "jar这一文件的文件夹。",
+                    "advancedFeatures.po",
+                    {
+                        "id": 33
+                    }
+                ],
+                [
+                    "然后点击Start LanguageTool Server的按钮后可以在本地运行LanguageTool的离线服务。",
+                    "Press \"Start LanguageTool Server\" to run the server locally.",
+                    "然后点击Start LanguageTool Server的按钮后可以在本地运行LanguageTool的离线服务。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309313",
+                        "id": 33
+                    }
+                ],
+                [
+                    "可以用浏览器访问 `<http:\/\/127.0.0.1:8081\/v2\/check?text=a%20example&language=en-US>`_ 来判断服务是否运行。",
+                    " ",
+                    "可以用浏览器访问 `<http:\/\/127.0.0.1:8081\/v2\/check?text=a%20example&language=en-US>`_ 来判断服务是否运行。",
+                    "advancedFeatures.po",
+                    {
+                        "id": 34
+                    }
+                ],
+                [
+                    "除此之外，你还要设置启用语言检查。",
+                    "In addition, you need to check the \"enable language tool\" checkbox in settings.",
+                    "除此之外，你还要设置启用语言检查。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309343",
+                        "id": 35
+                    }
+                ],
+                [
+                    "点击菜单Options->Preferences，进入Language Check页面，勾选启用语言检查。",
+                    "",
+                    "点击菜单Options->Preferences，进入Language Check页面，勾选启用语言检查。",
+                    "advancedFeatures.po",
+                    {
+                        "id": 35
+                    }
+                ],
+                [
+                    "如果你想使用运行在远程服务器的LanguageTool，可以通过修改链接来调用。",
+                    "You can change the link to use Language Tool running on a remote server.",
+                    "如果你想使用运行在远程服务器的LanguageTool，可以通过修改链接来调用。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309414",
+                        "id": 36
+                    }
+                ],
+                [
+                    "自动完成（交互式机器翻译）",
+                    "Autocomplete (Interactive Machine Translation)",
+                    "自动完成（交互式机器翻译）",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309441",
+                        "id": 37
+                    }
+                ],
+                [
+                    "自动完成对原文进行分词，并利用斯坦福自然语言处理工具进行句法分析，提取短语，所得的片段利用机器翻译进行翻译，如果在翻译过程中输入的字是某个片段的开头，那这一片段的译文会以下拉列表的形式供用户选择是否使用。",
+                    "Here is how autocomplete works: The source text is tokenized and parsed using Stanford NLP Tools. Then, words and phrases will be extracted and get machine translated. The results will be stored in the memory. When the user inputs a word that match the beginning of these segments, a dropdown list containing matched translation suggestions will show.",
+                    "自动完成对原文进行分词，并利用斯坦福自然语言处理工具进行句法分析，提取短语，所得的片段利用机器翻译进行翻译，如果在翻译过程中输入的字是某个片段的开头，那这一片段的译文会以下拉列表的形式供用户选择是否使用。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309474",
+                        "id": 38
+                    }
+                ],
+                [
+                    "对于汉译英，还可以用于快速输入英文单词。",
+                    "As for Chinese to English translation, it can also be used to input English words quickly.",
+                    "对于汉译英，还可以用于快速输入英文单词。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309504",
+                        "id": 39
+                    }
+                ],
+                [
+                    "要使用自动完成，需要下载斯坦福自然语言处理软件。",
+                    "To use autocomplete, Stanford CoreNLP is needed.",
+                    "要使用自动完成，需要下载斯坦福自然语言处理软件。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309531",
+                        "id": 40
+                    }
+                ],
+                [
+                    "官网地址：https:\/\/stanfordnlp.github.io\/CoreNLP\/index.html",
+                    "  ",
+                    "官网地址：https:\/\/stanfordnlp.github.io\/CoreNLP\/index.html",
+                    "advancedFeatures.po",
+                    {
+                        "id": 41
+                    }
+                ],
+                [
+                    "百度网盘（备用）：https:\/\/pan.baidu.com\/s\/1LNW4IDw8Viz6RURmzqxI9Q",
+                    " ",
+                    "百度网盘（备用）：https:\/\/pan.baidu.com\/s\/1LNW4IDw8Viz6RURmzqxI9Q",
+                    "advancedFeatures.po",
+                    {
+                        "id": 42
+                    }
+                ],
+                [
+                    "需要下载corenlp和中文的模型文件。",
+                    "CoreNLP and the Chinese model jar are needed.",
+                    "需要下载corenlp和中文的模型文件。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309559",
+                        "id": 43
+                    }
+                ],
+                [
+                    "下载完成后解压corenlp-full的zip文件到任意位置，把中文模型文件放入解压的目录，然后点菜单Tools->Server Launcher，选择文件夹位置后点Start CoreNLP Server按钮启动。",
+                    "Unzip CoreNLP and put the Chinese model jar in the same folder. Use Server Launcher to start the server.",
+                    "下载完成后解压corenlp-full的zip文件到任意位置，把中文模型文件放入解压的目录，然后点菜单Tools->Server Launcher，选择文件夹位置后点Start CoreNLP Server按钮启动。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309593",
+                        "id": 43
+                    }
+                ],
+                [
+                    "可以用浏览器访问 `<http:\/\/127.0.0.1:9000>`_ 来判断服务是否运行。",
+                    "Visit `<http:\/\/127.0.0.1:9000>`_ to see whether the server is running.",
+                    "可以用浏览器访问 `<http:\/\/127.0.0.1:9000>`_ 来判断服务是否运行。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309622",
+                        "id": 44
+                    }
+                ],
+                [
+                    "和Language Tool一样，还需要设置启用自动完成。",
+                    "",
+                    "和Language Tool一样，还需要设置启用自动完成。",
+                    "advancedFeatures.po",
+                    {
+                        "id": 45
+                    }
+                ],
+                [
+                    "点击菜单Options->Preferences，进入Autocomplete页面，勾选启用自动完成。",
+                    "",
+                    "点击菜单Options->Preferences，进入Autocomplete页面，勾选启用自动完成。",
+                    "advancedFeatures.po",
+                    {
+                        "id": 45
+                    }
+                ],
+                [
+                    "如果想使用运行在远程服务器的corenlp，可以通过修改链接来调用。",
+                    "Change the link to use a remote server.",
+                    "如果想使用运行在远程服务器的corenlp，可以通过修改链接来调用。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309727",
+                        "id": 46
+                    }
+                ],
+                [
+                    "快速填充",
+                    "Quickfill",
+                    "快速填充",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309728",
+                        "id": 47
+                    }
+                ],
+                [
+                    "翻译过程中我们常常需要输入特殊的符号，或者需要多次输入同一串文本。",
+                    "We often have to input special characters or the same text many times.",
+                    "翻译过程中我们常常需要输入特殊的符号，或者需要多次输入同一串文本。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309755",
+                        "id": 48
+                    }
+                ],
+                [
+                    "BasicCAT支持定义快速填充项目，在翻译时使用快捷键Ctrl+Q或者点击菜单Edit->Show quickfill dropdown来显示快捷输入用的下拉列表。",
+                    "BasicCAT supports quickfill. You can use the shortcut key CTRL+Q or click the menu \"Edit-show quick fill dropdown\" to display a dropdown list of quickfill items.",
+                    "BasicCAT支持定义快速填充项目，在翻译时使用快捷键Ctrl+Q或者点击菜单Edit->Show quickfill dropdown来显示快捷输入用的下拉列表。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309785",
+                        "id": 48
+                    }
+                ],
+                [
+                    "如果匹配到术语，也可以设置包含进去。",
+                    "Matched terms can also be included.",
+                    "如果匹配到术语，也可以设置包含进去。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309815",
+                        "id": 48
+                    }
+                ],
+                [
+                    "快速填充的设置需要点击菜单Project->Project Settings，切换到Quickfill栏目。",
+                    "Click menu \"Project->Project Settings\" to set up quickfill.",
+                    "快速填充的设置需要点击菜单Project->Project Settings，切换到Quickfill栏目。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309847",
+                        "id": 49
+                    }
+                ],
+                [
+                    "自动更正",
+                    "AutoCorrect",
+                    "自动更正",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309849",
+                        "id": 50
+                    }
+                ],
+                [
+                    "自动更正是借鉴自Word的一项功能，可以检测输入的内容，对内容进行修正。",
+                    "AutoCorrect is inspired by Microsoft Word's function. It can detect the inputed text and correct spelling errors.",
+                    "自动更正是借鉴自Word的一项功能，可以检测输入的内容，对内容进行修正。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309880",
+                        "id": 51
+                    }
+                ],
+                [
+                    "比如英译汉时需要输入中文的标点符号，可以设置错误地输入英文标点符号时自动更正为中文标点。",
+                    "For example, we need to input Chinese punctuations when doing an English to Chinese translation and autocorrect can replace English punctuations to Chinese punctuations.",
+                    "比如英译汉时需要输入中文的标点符号，可以设置错误地输入英文标点符号时自动更正为中文标点。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309911",
+                        "id": 51
+                    }
+                ],
+                [
+                    "我们也可以用它来快速输入内容。",
+                    "We can also use it to input content quickly.",
+                    "我们也可以用它来快速输入内容。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309948",
+                        "id": 51
+                    }
+                ],
+                [
+                    "比如rst是restructuredText的缩写，设置自动更正后，每次输入rst，内容就会自动变成restructuredText。",
+                    "For example, \"rst\" is the abbreviation of \"restructuredText\". When AutoCorrect is setuped, we can input \"rst\" the get \"restructuredText\".",
+                    "比如rst是restructuredText的缩写，设置自动更正后，每次输入rst，内容就会自动变成restructuredText。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945309985",
+                        "id": 51
+                    }
+                ],
+                [
+                    "点击菜单Project->Project Settings，切换到AutoCorrect栏目进行设置。",
+                    "Click menu \"Project->Project Settings\" to set up AutoCorrect.",
+                    "点击菜单Project->Project Settings，切换到AutoCorrect栏目进行设置。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945310021",
+                        "id": 52
+                    }
+                ],
+                [
+                    "导出Word以供审校",
+                    "Export Word for review",
+                    "导出Word以供审校",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945310056",
+                        "id": 53
+                    }
+                ],
+                [
+                    "BasicCAT支持导出翻译的内容至Word中，利用Word的审校功能进行审校。",
+                    "BasicCAT can export translated contents to docx files and use Word to review.",
+                    "BasicCAT支持导出翻译的内容至Word中，利用Word的审校功能进行审校。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945310092",
+                        "id": 54
+                    }
+                ],
+                [
+                    "在所需导出的文件上右键，点击Export to->docx for review，可以导出docx文件。",
+                    "Right click on the file and click \"Export to docx for review\" to export the docx file.",
+                    "在所需导出的文件上右键，点击Export to->docx for review，可以导出docx文件。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945310135",
+                        "id": 55
+                    }
+                ],
+                [
+                    "完成审校后，可以从Word文件将修改结果导回。",
+                    "When the review is done, you can import the result back.",
+                    "完成审校后，可以从Word文件将修改结果导回。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945310170",
+                        "id": 56
+                    }
+                ],
+                [
+                    "在文件名上右键，点击Import form review。",
+                    "Right click on the file and click \"Import from review\".",
+                    "在文件名上右键，点击Import form review。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945310204",
+                        "id": 56
+                    }
+                ],
+                [
+                    "你可以一条一条地重新确认，也可以直接用审校的内容替换原来的翻译。",
+                    "You can check the imported result one by one or replace the original translation with the review directly.",
+                    "你可以一条一条地重新确认，也可以直接用审校的内容替换原来的翻译。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945310238",
+                        "id": 57
+                    }
+                ],
+                [
+                    "导出双语对照文本",
+                    "Exporting bilingual paragraph files",
+                    "导出双语对照文本",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945310271",
+                        "id": 58
+                    }
+                ],
+                [
+                    "在所需导出的文件上右键，点击Export to->bi-paragraphs，可以导出双语段落对照文本。",
+                    "Right on the file, click \"Export to bi-paragraphs\" to do this.",
+                    "在所需导出的文件上右键，点击Export to->bi-paragraphs，可以导出双语段落对照文本。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945310312",
+                        "id": 59
+                    }
+                ],
+                [
+                    "导出带备注的Markdown文件",
+                    "",
+                    "导出带备注的Markdown文件",
+                    "advancedFeatures.po",
+                    {
+                        "id": 60
+                    }
+                ],
+                [
+                    "和上一条操作办法相近，在所需导出的文件上右键，点击Export to->Markdown with notes，可以导出Markdown文件。",
+                    "",
+                    "和上一条操作办法相近，在所需导出的文件上右键，点击Export to->Markdown with notes，可以导出Markdown文件。",
+                    "advancedFeatures.po",
+                    {
+                        "id": 61
+                    }
+                ],
+                [
+                    "Markdown文件可以使用\\\\ `Pandoc <http:\/\/www.pandoc.org\/>`_\\\\ 进一步转换成Word文件。",
+                    " ",
+                    "Markdown文件可以使用\\\\ `Pandoc <http:\/\/www.pandoc.org\/>`_\\\\ 进一步转换成Word文件。",
+                    "advancedFeatures.po",
+                    {
+                        "id": 62
+                    }
+                ],
+                [
+                    "搜索与替换",
+                    "Search and Replace",
+                    "搜索与替换",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945310429",
+                        "id": 63
+                    }
+                ],
+                [
+                    "点击菜单Edit->Search and Replace进入搜索与替换对话框，可以检索原文和译文的内容。",
+                    "Click menu \"Edit->Search and Replace\" to open the Search and Replace Dialog. You can search in the source or the target text.",
+                    "点击菜单Edit->Search and Replace进入搜索与替换对话框，可以检索原文和译文的内容。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945310460",
+                        "id": 64
+                    }
+                ],
+                [
+                    "支持使用正则表达式。",
+                    "Regular expressions are supported.",
+                    "支持使用正则表达式。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945310494",
+                        "id": 64
+                    }
+                ],
+                [
+                    "下面是利用正则表达式将英文引号替换成中文引号的例子。",
+                    "Below is an example of replacing English quotation marks to Chinese quotation marks.",
+                    "下面是利用正则表达式将英文引号替换成中文引号的例子。",
+                    "advancedFeatures.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945310525",
+                        "id": 65
+                    }
+                ],
+                [
+                    "关于正则表达式，可以参考\\\\ `这里 <http:\/\/www.runoob.com\/regexp\/regexp-tutorial.html>`_\\\\ 的教程。",
+                    "  ",
+                    "关于正则表达式，可以参考\\\\ `这里 <http:\/\/www.runoob.com\/regexp\/regexp-tutorial.html>`_\\\\ 的教程。",
+                    "advancedFeatures.po",
+                    {
+                        "id": 66
+                    }
+                ]
+            ]
+        }
+    ]
+}

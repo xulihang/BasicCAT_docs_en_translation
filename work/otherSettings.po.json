@@ -1,0 +1,196 @@
+{
+    "filename": "otherSettings.po",
+    "files": [
+        {
+            "otherSettings.po": [
+                [
+                    "其它",
+                    "Other",
+                    "其它",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945210789",
+                        "id": 2
+                    }
+                ],
+                [
+                    "外观设置",
+                    "Appearance Setting",
+                    "外观设置",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945210824",
+                        "id": 3
+                    }
+                ],
+                [
+                    "点击菜单Options->Preferences进入设置窗口，点击左边的Appearence，可以进行外观方面的设置。",
+                    "Click menu \"Options->Preferences\" to enter the Preferences Window. Click \"Appearance\" in the left.",
+                    "点击菜单Options->Preferences进入设置窗口，点击左边的Appearence，可以进行外观方面的设置。",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945210863",
+                        "id": 4
+                    }
+                ],
+                [
+                    "目前仅支持设置编辑区的字体。",
+                    "For now, only setting of editing area's font is supported.",
+                    "目前仅支持设置编辑区的字体。",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945210898",
+                        "id": 5
+                    }
+                ],
+                [
+                    "自动备份",
+                    "Auto Backup",
+                    "自动备份",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945210932",
+                        "id": 6
+                    }
+                ],
+                [
+                    "BasicCAT支持自动备份，可以在设置界面设置间隔多少时间备份一次项目文件。",
+                    "BasicCAT supports auto backup. You can set up its time interval.",
+                    "BasicCAT支持自动备份，可以在设置界面设置间隔多少时间备份一次项目文件。",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945210958",
+                        "id": 7
+                    }
+                ],
+                [
+                    "备份的文件会保存在项目的bak文件夹里。",
+                    "The backup files will be stored in the project's bak folder.",
+                    "备份的文件会保存在项目的bak文件夹里。",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945210985",
+                        "id": 7
+                    }
+                ],
+                [
+                    "使用Git进行版本控制",
+                    "Version Control Using Git",
+                    "使用Git进行版本控制",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945210987",
+                        "id": 8
+                    }
+                ],
+                [
+                    "BasicCAT自带的Git，支持每次执行保存时在项目文件夹执行一次git commit操作。",
+                    "BasicCAT comes with git and can execute git add and git commit every time the project is saved.",
+                    "BasicCAT自带的Git，支持每次执行保存时在项目文件夹执行一次git commit操作。",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945211018",
+                        "id": 9
+                    }
+                ],
+                [
+                    "可以在设置里设置执行git commit的用户信息。",
+                    "You can set git commit's user information in Preferences.",
+                    "可以在设置里设置执行git commit的用户信息。",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945211051",
+                        "id": 10
+                    }
+                ],
+                [
+                    "如果要同步到远程仓库，还可以设置密码。",
+                    "If you need to sync with remote repositories, you can set a password.",
+                    "如果要同步到远程仓库，还可以设置密码。",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945234484",
+                        "id": 10
+                    }
+                ],
+                [
+                    "安装Git后，在项目文件夹执行git show可以查看最新一次保存做了哪些修改。",
+                    "You can use git show to see what the latest changes are. You have to install Git on your computer to do this.",
+                    "安装Git后，在项目文件夹执行git show可以查看最新一次保存做了哪些修改。",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945211128",
+                        "id": 11
+                    }
+                ],
+                [
+                    "你也可以用git reset命令回退到之前的历史版本。",
+                    "You can use git reset to return to a previous version.",
+                    "你也可以用git reset命令回退到之前的历史版本。",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945211163",
+                        "id": 11
+                    }
+                ],
+                [
+                    "更多功能可以通过安装Git桌面客户端来实现。",
+                    "More functions can be realized by installing a git desktop client.",
+                    "更多功能可以通过安装Git桌面客户端来实现。",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945211194",
+                        "id": 12
+                    }
+                ],
+                [
+                    "管理插件",
+                    "Managing Plugins",
+                    "管理插件",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945211230",
+                        "id": 13
+                    }
+                ],
+                [
+                    "BasicCAT目前支持开发机器翻译插件和文件过滤器插件。",
+                    "BasicCAT currently supports two kinds of plugins. One is machine translation plugin and the other is filter plugin.",
+                    "BasicCAT目前支持开发机器翻译插件和文件过滤器插件。",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945211265",
+                        "id": 14
+                    }
+                ],
+                [
+                    "进入设置界面可以选择插件存放的文件夹，执行插件的增删操作。",
+                    "You can set the plugin folder and add or remove plugins in the Preferences.",
+                    "进入设置界面可以选择插件存放的文件夹，执行插件的增删操作。",
+                    "otherSettings.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945211296",
+                        "id": 14
+                    }
+                ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,229 @@
+{
+    "filename": "intro.po",
+    "files": [
+        {
+            "intro.po": [
+                [
+                    "简介",
+                    "Introduction",
+                    "简介",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196447",
+                        "id": 2
+                    }
+                ],
+                [
+                    "BasicCAT是一款开源的计算机辅助翻译软件，旨在为译员提供简单实用的翻译工具。",
+                    "BasicCAT is an open source computer-aided translation tool, which aims at providing a simple and useful tool for translators.",
+                    "BasicCAT是一款开源的计算机辅助翻译软件，旨在为译员提供简单实用的翻译工具。",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196483",
+                        "id": 3
+                    }
+                ],
+                [
+                    "取名BasicCAT，一是因为它简单易用，二是因为它使用Basic语言编写，普通人花上一段时间学习后也能掌握，从而在BasicCAT源代码的基础上修改出适合自己需要的软件。",
+                    "The name is BasicCAT, because of its simplicity and its programming language—Basic. Basic is easy to learn and everyone can build a suitable CAT tool based on BasicCAT's source code.",
+                    "取名BasicCAT，一是因为它简单易用，二是因为它使用Basic语言编写，普通人花上一段时间学习后也能掌握，从而在BasicCAT源代码的基础上修改出适合自己需要的软件。",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196527",
+                        "id": 3
+                    }
+                ],
+                [
+                    "软件具有以下功能：",
+                    "It has the following features:",
+                    "软件具有以下功能：",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196561",
+                        "id": 4
+                    }
+                ],
+                [
+                    "翻译记忆",
+                    "Translation Memory",
+                    "翻译记忆",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196563",
+                        "id": 5
+                    }
+                ],
+                [
+                    "术语管理",
+                    "Terminology Management",
+                    "术语管理",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196565",
+                        "id": 6
+                    }
+                ],
+                [
+                    "语言检查",
+                    "Language Check",
+                    "语言检查",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196603",
+                        "id": 7
+                    }
+                ],
+                [
+                    "划词取义",
+                    "Select words to get meanings.",
+                    "划词取义",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196636",
+                        "id": 8
+                    }
+                ],
+                [
+                    "快速填充",
+                    "Quickfill",
+                    "快速填充",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196678",
+                        "id": 9
+                    }
+                ],
+                [
+                    "自动更正",
+                    "AutoCorrect",
+                    "自动更正",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196715",
+                        "id": 10
+                    }
+                ],
+                [
+                    "交互式机器翻译",
+                    "Interactive Machine Translation",
+                    "交互式机器翻译",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196743",
+                        "id": 11
+                    }
+                ],
+                [
+                    "导出Word供外部审校",
+                    "Export Word for external review",
+                    "导出Word供外部审校",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196775",
+                        "id": 12
+                    }
+                ],
+                [
+                    "导出双语段落对照文件",
+                    "Export bilingual paragraph files",
+                    "导出双语段落对照文件",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196803",
+                        "id": 13
+                    }
+                ],
+                [
+                    "句段分割与合并",
+                    "Merge and split segments freely",
+                    "句段分割与合并",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196839",
+                        "id": 14
+                    }
+                ],
+                [
+                    "调用多种在线词典",
+                    "Online Dictionaries Integration",
+                    "调用多种在线词典",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196877",
+                        "id": 15
+                    }
+                ],
+                [
+                    "常见机器翻译服务的API调用",
+                    "Support Machine Translation Services Provided by Google, Microsoft, etc.",
+                    "常见机器翻译服务的API调用",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196909",
+                        "id": 16
+                    }
+                ],
+                [
+                    "支持利用翻译记忆与机器翻译进行全文预翻译",
+                    "Pretranslate based on translation memory and machine translation",
+                    "支持利用翻译记忆与机器翻译进行全文预翻译",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196951",
+                        "id": 17
+                    }
+                ],
+                [
+                    "支持常见源文件格式：txt, idml, xliff, gettext po",
+                    "Support  common file formats: TXT, idml, xliff, gettext Po",
+                    "支持常见源文件格式：txt, idml, xliff, gettext po",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945196998",
+                        "id": 18
+                    }
+                ],
+                [
+                    "支持翻译记忆标准TMX、术语管理标准TBX和句段分割标准SRX",
+                    "Support three translation standards: TMX, TBX and SRX",
+                    "支持翻译记忆标准TMX、术语管理标准TBX和句段分割标准SRX",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945197031",
+                        "id": 19
+                    }
+                ],
+                [
+                    "使用Git进行版本控制",
+                    "Version Control Using Git",
+                    "使用Git进行版本控制",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945197071",
+                        "id": 20
+                    }
+                ]
+            ]
+        }
+    ]
+}
