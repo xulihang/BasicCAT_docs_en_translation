@@ -5,19 +5,23 @@
             "index.po": [
                 [
                     "BasicCAT 使用手册",
-                    "",
+                    "BasicCAT Documentation",
                     "BasicCAT 使用手册",
                     "index.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945409866",
                         "id": 2
                     }
                 ],
                 [
                     "目录",
-                    "",
+                    "Contents",
                     "目录",
                     "index.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945409918",
                         "id": 3
                     }
                 ]

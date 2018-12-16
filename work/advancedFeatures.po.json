@@ -38,82 +38,100 @@
                 ],
                 [
                     "`百度 <http:\/\/api.fanyi.baidu.com\/api\/trans\/product\/prodinfo>`_",
-                    "  ",
+                    "`Baidu <http:\/\/api.fanyi.baidu.com\/api\/trans\/product\/prodinfo>`_",
                     "`百度 <http:\/\/api.fanyi.baidu.com\/api\/trans\/product\/prodinfo>`_",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945779037",
                         "id": 5
                     }
                 ],
                 [
                     "`谷歌 <https:\/\/cloud.google.com\/translate\/>`_",
-                    " ",
+                    "`Google <https:\/\/cloud.google.com\/translate\/>`_",
                     "`谷歌 <https:\/\/cloud.google.com\/translate\/>`_",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945779037",
                         "id": 6
                     }
                 ],
                 [
                     "`微软必应 <https:\/\/azure.microsoft.com\/services\/cognitive-services\/translator-text-api\/>`_",
-                    " ",
+                    "`Microsoft Bing <https:\/\/azure.microsoft.com\/services\/cognitive-services\/translator-text-api\/>`_",
                     "`微软必应 <https:\/\/azure.microsoft.com\/services\/cognitive-services\/translator-text-api\/>`_",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945781042",
                         "id": 7
                     }
                 ],
                 [
                     "`小牛 <https:\/\/niutrans.vip\/index\/niutrans\/index.html>`_",
-                    "  ",
+                    "`Niutrans <https:\/\/niutrans.vip\/index\/niutrans\/index.html>`_",
                     "`小牛 <https:\/\/niutrans.vip\/index\/niutrans\/index.html>`_",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945782531",
                         "id": 8
                     }
                 ],
                 [
                     "`有道 <http:\/\/ai.youdao.com\/>`_",
-                    " ",
+                    "`Youdao <http:\/\/ai.youdao.com\/>`_",
                     "`有道 <http:\/\/ai.youdao.com\/>`_",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945785595",
                         "id": 9
                     }
                 ],
                 [
                     "`Yandex <https:\/\/tech.yandex.com\/translate\/>`_",
-                    " ",
+                    "`Yandex <https:\/\/tech.yandex.com\/translate\/>`_",
                     "`Yandex <https:\/\/tech.yandex.com\/translate\/>`_",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945801605",
                         "id": 10
                     }
                 ],
                 [
                     "`MyMemory <https:\/\/mymemory.translated.net\/doc\/spec.php>`_",
-                    "  ",
+                    "`MyMemory <https:\/\/mymemory.translated.net\/doc\/spec.php>`_",
                     "`MyMemory <https:\/\/mymemory.translated.net\/doc\/spec.php>`_",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945808798",
                         "id": 11
                     }
                 ],
                 [
                     "`搜狗 <http:\/\/ai.sogou.com\/ai-docs\/api\/fanyi>`_",
-                    " ",
+                    "`Sogou <http:\/\/ai.sogou.com\/ai-docs\/api\/fanyi>`_",
                     "`搜狗 <http:\/\/ai.sogou.com\/ai-docs\/api\/fanyi>`_",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945820785",
                         "id": 12
                     }
                 ],
                 [
                     "`腾讯翻译君 <https:\/\/ai.qq.com\/doc\/nlptrans.shtml>`_",
-                    "  ",
+                    "`Tencent <https:\/\/ai.qq.com\/doc\/nlptrans.shtml>`_",
                     "`腾讯翻译君 <https:\/\/ai.qq.com\/doc\/nlptrans.shtml>`_",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945829734",
                         "id": 13
                     }
                 ],
@@ -277,7 +295,8 @@
                     "在原文中选中需要检索的部分，可以显示机器翻译或者在线词典的内容。",
                     "advancedFeatures.po",
                     {
-                        "id": 21
+                        "id": 21,
+                        "translate": "no"
                     }
                 ],
                 [
@@ -369,20 +388,13 @@
                     }
                 ],
                 [
-                    "你可以通过修改项目文件夹下的config文件夹里的dictList.",
-                    "",
-                    "你可以通过修改项目文件夹下的config文件夹里的dictList.",
+                    "你可以通过修改项目文件夹下的config文件夹里的dictList.txt添加其它在线词典。",
+                    "You can add other online dictionaries by modifying the dictList.txt in the project's config folder.",
+                    "你可以通过修改项目文件夹下的config文件夹里的dictList.txt添加其它在线词典。",
                     "advancedFeatures.po",
                     {
-                        "id": 27
-                    }
-                ],
-                [
-                    "txt添加其它在线词典。",
-                    "",
-                    "txt添加其它在线词典。",
-                    "advancedFeatures.po",
-                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544945961792",
                         "id": 27
                     }
                 ],
@@ -399,10 +411,12 @@
                 ],
                 [
                     "BasicCAT利用 `Language Tool <https:\/\/www.languagetool.org\/>`_ 作为语言检查的后端。",
-                    " ",
+                    "BasicCAT uses `Language Tool <https:\/\/www.languagetool.org\/>`_  to check language errors.",
                     "BasicCAT利用 `Language Tool <https:\/\/www.languagetool.org\/>`_ 作为语言检查的后端。",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945972505",
                         "id": 29
                     }
                 ],
@@ -463,30 +477,23 @@
                 ],
                 [
                     "`LanguageTool 4.3 下载 <https:\/\/www.languagetool.org\/download\/LanguageTool-4.3.zip>`_",
-                    " ",
+                    " `LanguageTool 4.3 Download <https:\/\/www.languagetool.org\/download\/LanguageTool-4.3.zip>`_",
                     "`LanguageTool 4.3 下载 <https:\/\/www.languagetool.org\/download\/LanguageTool-4.3.zip>`_",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945753600",
                         "id": 32
                     }
                 ],
                 [
-                    "下载后解压至任意位置，然后打开BasicCAT，点击菜单Tools->Server Launcher，打开服务启动器的窗口，选择存放languagetool-server.",
-                    "Unzip the downloaded, open BasicCAT, click menu \"Tools->Server Launcher\", and you can setup the path to the folder containing the file named languagetool-server.jar.",
-                    "下载后解压至任意位置，然后打开BasicCAT，点击菜单Tools->Server Launcher，打开服务启动器的窗口，选择存放languagetool-server.",
+                    "下载后解压至任意位置，然后打开BasicCAT，点击菜单Tools->Server Launcher，打开服务启动器的窗口，选择存放languagetool-server.jar这一文件的文件夹。",
+                    "Unzip the downloaded, open BasicCAT, click menu \"Tools->Server Launcher\", and you can setup the path to the folder containing the file named languagetool-server.jar. ",
+                    "下载后解压至任意位置，然后打开BasicCAT，点击菜单Tools->Server Launcher，打开服务启动器的窗口，选择存放languagetool-server.jar这一文件的文件夹。",
                     "advancedFeatures.po",
                     {
                         "creator": "xulihang",
                         "createdTime": "1544945309242",
-                        "id": 33
-                    }
-                ],
-                [
-                    "jar这一文件的文件夹。",
-                    "",
-                    "jar这一文件的文件夹。",
-                    "advancedFeatures.po",
-                    {
                         "id": 33
                     }
                 ],
@@ -503,10 +510,12 @@
                 ],
                 [
                     "可以用浏览器访问 `<http:\/\/127.0.0.1:8081\/v2\/check?text=a%20example&language=en-US>`_ 来判断服务是否运行。",
-                    " ",
+                    "You can visit `<http:\/\/127.0.0.1:8081\/v2\/check?text=a%20example&language=en-US>`_ to check whether the server is running.",
                     "可以用浏览器访问 `<http:\/\/127.0.0.1:8081\/v2\/check?text=a%20example&language=en-US>`_ 来判断服务是否运行。",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945740121",
                         "id": 34
                     }
                 ],
@@ -527,7 +536,8 @@
                     "点击菜单Options->Preferences，进入Language Check页面，勾选启用语言检查。",
                     "advancedFeatures.po",
                     {
-                        "id": 35
+                        "id": 35,
+                        "translate": "no"
                     }
                 ],
                 [
@@ -587,19 +597,23 @@
                 ],
                 [
                     "官网地址：https:\/\/stanfordnlp.github.io\/CoreNLP\/index.html",
-                    "  ",
+                    "Stanford CoreNLP Homepage: https:\/\/stanfordnlp.github.io\/CoreNLP\/index.html",
                     "官网地址：https:\/\/stanfordnlp.github.io\/CoreNLP\/index.html",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946029609",
                         "id": 41
                     }
                 ],
                 [
                     "百度网盘（备用）：https:\/\/pan.baidu.com\/s\/1LNW4IDw8Viz6RURmzqxI9Q",
-                    " ",
+                    "BaiduNetdisk (backup download): https:\/\/pan.baidu.com\/s\/1LNW4IDw8Viz6RURmzqxI9Q",
                     "百度网盘（备用）：https:\/\/pan.baidu.com\/s\/1LNW4IDw8Viz6RURmzqxI9Q",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946029609",
                         "id": 42
                     }
                 ],
@@ -637,20 +651,13 @@
                     }
                 ],
                 [
-                    "和Language Tool一样，还需要设置启用自动完成。",
-                    "",
-                    "和Language Tool一样，还需要设置启用自动完成。",
+                    "和Language Tool一样，还需要设置启用自动完成。点击菜单Options->Preferences，进入Autocomplete页面，勾选启用自动完成。",
+                    "Like setting Language Tool, you also need to check the \"Enable Autocomplete\" checkbox to use autocomplete.",
+                    "和Language Tool一样，还需要设置启用自动完成。点击菜单Options->Preferences，进入Autocomplete页面，勾选启用自动完成。",
                     "advancedFeatures.po",
                     {
-                        "id": 45
-                    }
-                ],
-                [
-                    "点击菜单Options->Preferences，进入Autocomplete页面，勾选启用自动完成。",
-                    "",
-                    "点击菜单Options->Preferences，进入Autocomplete页面，勾选启用自动完成。",
-                    "advancedFeatures.po",
-                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544946044161",
                         "id": 45
                     }
                 ],
@@ -876,28 +883,34 @@
                 ],
                 [
                     "导出带备注的Markdown文件",
-                    "",
+                    "Export to markdown with notes",
                     "导出带备注的Markdown文件",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946077980",
                         "id": 60
                     }
                 ],
                 [
                     "和上一条操作办法相近，在所需导出的文件上右键，点击Export to->Markdown with notes，可以导出Markdown文件。",
-                    "",
+                    "Like the previous export, right click on the filename and click export to->markdown with notes to get a markdown file.",
                     "和上一条操作办法相近，在所需导出的文件上右键，点击Export to->Markdown with notes，可以导出Markdown文件。",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946262549",
                         "id": 61
                     }
                 ],
                 [
                     "Markdown文件可以使用\\\\ `Pandoc <http:\/\/www.pandoc.org\/>`_\\\\ 进一步转换成Word文件。",
-                    " ",
+                    "Markdown files can be converted to word files later using `Pandoc <http:\/\/www.pandoc.org\/>`_.",
                     "Markdown文件可以使用\\\\ `Pandoc <http:\/\/www.pandoc.org\/>`_\\\\ 进一步转换成Word文件。",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946327839",
                         "id": 62
                     }
                 ],
@@ -947,10 +960,12 @@
                 ],
                 [
                     "关于正则表达式，可以参考\\\\ `这里 <http:\/\/www.runoob.com\/regexp\/regexp-tutorial.html>`_\\\\ 的教程。",
-                    "  ",
+                    "You can learn more about regular expressions at this `website <http:\/\/www.runoob.com\/regexp\/regexp-tutorial.html>`_\\ .",
                     "关于正则表达式，可以参考\\\\ `这里 <http:\/\/www.runoob.com\/regexp\/regexp-tutorial.html>`_\\\\ 的教程。",
                     "advancedFeatures.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946340109",
                         "id": 66
                     }
                 ]

@@ -5,244 +5,276 @@
             "collaboration.po": [
                 [
                     "团队协作",
-                    "",
+                    "Collaboration",
                     "团队协作",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946401726",
                         "id": 2
                     }
                 ],
                 [
                     "共享翻译记忆、术语",
-                    "",
+                    "Sharing translation memory and term",
                     "共享翻译记忆、术语",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946492150",
                         "id": 3
                     }
                 ],
                 [
                     "利用BasicCAT的服务器端程序，可以架设用于共享翻译记忆和术语的服务。",
-                    "",
+                    "The BasicCAT's server program is needed to setup a translatin memory and term sharing service.",
                     "利用BasicCAT的服务器端程序，可以架设用于共享翻译记忆和术语的服务。",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946488030",
                         "id": 4
                     }
                 ],
                 [
                     "该程序可以在BasicCAT的下载页面获取。",
-                    "",
+                    "The program is available in the BasicCAT's download page.",
                     "该程序可以在BasicCAT的下载页面获取。",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946513774",
                         "id": 4
                     }
                 ],
                 [
                     "客户端需要进行相关设置，设置完成后即可实时共享翻译记忆与术语。",
-                    "",
+                    "Relevant settings are needed on the client side.",
                     "客户端需要进行相关设置，设置完成后即可实时共享翻译记忆与术语。",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946545190",
                         "id": 5
                     }
                 ],
                 [
                     "服务器程序运行的方法（需要安装java8以上版本）：",
-                    "",
+                    "How to run the server program (requires java8+):",
                     "服务器程序运行的方法（需要安装java8以上版本）：",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946572198",
                         "id": 6
                     }
                 ],
                 [
-                    "你可以修改程序所在目录下key.",
-                    "",
-                    "你可以修改程序所在目录下key.",
+                    "你可以修改程序所在目录下key.txt来添加一个访问密钥。",
+                    "You can modify the key.txt in program's folder to setup an access key.",
+                    "你可以修改程序所在目录下key.txt来添加一个访问密钥。",
                     "collaboration.po",
                     {
-                        "id": 7
-                    }
-                ],
-                [
-                    "txt来添加一个访问密钥。",
-                    "",
-                    "txt来添加一个访问密钥。",
-                    "collaboration.po",
-                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544946628357",
                         "id": 7
                     }
                 ],
                 [
                     "密钥目前只支持单行内容。",
-                    "",
+                    "The key can be any one-line text.",
                     "密钥目前只支持单行内容。",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946666478",
                         "id": 7
                     }
                 ],
                 [
                     "基于Git进行团队协作",
-                    "",
+                    "Using Git to collaborate",
                     "基于Git进行团队协作",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946679022",
                         "id": 8
                     }
                 ],
                 [
                     "BasicCAT可以在本地生成git仓库，添加remote uri和账号密码后即可把本地的记录上传到远程，并与其它用户进行协作。",
-                    "",
+                    "BasicCAT can build a local git repository and upload it to a remote repository when the remote uri and account info are set. ",
                     "BasicCAT可以在本地生成git仓库，添加remote uri和账号密码后即可把本地的记录上传到远程，并与其它用户进行协作。",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946747358",
                         "id": 9
                     }
                 ],
                 [
                     "每次请求git push时，程序会自动从远程仓库获取最新的变动，并更新本地文件，然后将本地的修改进行上传。",
-                    "",
+                    "When requesting a git push, the program will fetch the latest changes and update local files. Then new changes in the local repo will be uploaded.",
                     "每次请求git push时，程序会自动从远程仓库获取最新的变动，并更新本地文件，然后将本地的修改进行上传。",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946831893",
                         "id": 9
                     }
                 ],
                 [
                     "BasicCAT会根据片段修改的时间自动解决冲突，基本不会发生冲突的情况。",
-                    "",
+                    "BasicCAT automatically resolves conflicts according to the creation time of segment's translation. You will almost encounter no conflicts.",
                     "BasicCAT会根据片段修改的时间自动解决冲突，基本不会发生冲突的情况。",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544946916854",
                         "id": 9
                     }
                 ],
                 [
                     "需要在项目设置里设置远程仓库地址并选择是否每次执行保存操作时把修改上传到远程仓库。",
-                    "",
+                    "You need to set the remote uri in the project settings and choose whether to upload the changes to the remote everytime you perform a save operation.",
                     "需要在项目设置里设置远程仓库地址并选择是否每次执行保存操作时把修改上传到远程仓库。",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544947044006",
                         "id": 10
                     }
                 ],
                 [
                     "你需要在偏好设置里先设置好git账户。",
-                    "",
+                    "You need to setup git accounts in preference settings first.",
                     "你需要在偏好设置里先设置好git账户。",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544947076073",
                         "id": 10
                     }
                 ],
                 [
                     "你也可以通过菜单手动进行git的相关操作。",
-                    "",
+                    "You can also use the menu to manually do git actions.",
                     "你也可以通过菜单手动进行git的相关操作。",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544947128975",
                         "id": 11
                     }
                 ],
                 [
                     "基于Git的协作并不同步翻译记忆与术语，只同步工作文件。",
-                    "",
+                    "Collaboration using git will not sync translation memory and terms. It only syncs work files.",
                     "基于Git的协作并不同步翻译记忆与术语，只同步工作文件。",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544947162327",
                         "id": 12
                     }
                 ],
                 [
                     "GitHub操作示例",
-                    "",
+                    "Using GitHub",
                     "GitHub操作示例",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544948238568",
                         "id": 13
                     }
                 ],
                 [
                     "GitHub是一个流行的Git托管平台，我们可以基于它进行协作。",
-                    "",
+                    "GitHub is a popular Git hosting platform. We can collaborate upon it.",
                     "GitHub是一个流行的Git托管平台，我们可以基于它进行协作。",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544948281032",
                         "id": 14
                     }
                 ],
                 [
                     "首先建立一个空的仓库：",
-                    "",
+                    "First, create an empty repository.",
                     "首先建立一个空的仓库：",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544948296656",
                         "id": 15
                     }
                 ],
                 [
                     "进入以下设置界面：",
-                    "",
+                    "Will see this setting page:",
                     "进入以下设置界面：",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544948320664",
                         "id": 16
                     }
                 ],
                 [
                     "之后用BasicCAT打开一个项目，在项目设置-团队协作里设置远程仓库。",
-                    "",
+                    "Use BasicCAT to open a project and set the remote repository.",
                     "之后用BasicCAT打开一个项目，在项目设置-团队协作里设置远程仓库。",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544948343705",
                         "id": 17
                     }
                 ],
                 [
                     "之后将这个项目分发给其它用户即可。",
-                    "",
+                    "Then, you can package the project to other translators.",
                     "之后将这个项目分发给其它用户即可。",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544948361072",
                         "id": 18
                     }
                 ],
                 [
                     "其它用户要想修改远程仓库，还需要获得push的权限。",
-                    "",
+                    "Other translators need to have their own GitHub account and be authorized push permission to the repository.",
                     "其它用户要想修改远程仓库，还需要获得push的权限。",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544948409448",
                         "id": 19
                     }
                 ],
                 [
                     "进入GitHub的仓库设置，点击左边的Collaborators然后添加要添加的GitHub账户。",
-                    "",
+                    "In the settings of the repository, click Collaborators on the left and add other translators' GitHub account.",
                     "进入GitHub的仓库设置，点击左边的Collaborators然后添加要添加的GitHub账户。",
                     "collaboration.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544948452553",
                         "id": 20
                     }
                 ],
                 [
-                    "更多内容可以见GitHub的\\\\ `帮助文档 <https:\/\/help.",
-                    "",
-                    "更多内容可以见GitHub的\\\\ `帮助文档 <https:\/\/help.",
+                    "更多内容可以见GitHub的\\\\ `帮助文档 <https:\/\/help.github.com\/>`_\\\\ 。",
+                    "See the `GitHub Help <https:\/\/help.github.com\/>`_ to learn more.",
+                    "更多内容可以见GitHub的\\\\ `帮助文档 <https:\/\/help.github.com\/>`_\\\\ 。",
                     "collaboration.po",
                     {
-                        "id": 21
-                    }
-                ],
-                [
-                    "github.com\/>`_\\\\ 。",
-                    "",
-                    "github.com\/>`_\\\\ 。",
-                    "collaboration.po",
-                    {
+                        "creator": "xulihang",
+                        "createdTime": "1544946972733",
                         "id": 21
                     }
                 ]

@@ -291,100 +291,122 @@
                 ],
                 [
                     "100->ExtraLight",
-                    "",
+                    "100->ExtraLight",
                     "100->ExtraLight",
                     "translatingFiles.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945650659",
                         "id": 17
                     }
                 ],
                 [
                     "200->ExtraLight",
-                    "",
+                    "200->ExtraLight",
                     "200->ExtraLight",
                     "translatingFiles.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945650659",
                         "id": 18
                     }
                 ],
                 [
                     "300->Light",
-                    "",
+                    "300->Light",
                     "300->Light",
                     "translatingFiles.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945650659",
                         "id": 19
                     }
                 ],
                 [
                     "400->Regular",
-                    "",
+                    "400->Regular",
                     "400->Regular",
                     "translatingFiles.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945650659",
                         "id": 20
                     }
                 ],
                 [
                     "500->Medium",
-                    "",
+                    "500->Medium",
                     "500->Medium",
                     "translatingFiles.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945650659",
                         "id": 21
                     }
                 ],
                 [
                     "600->SemiBold",
-                    "",
+                    "600->SemiBold",
                     "600->SemiBold",
                     "translatingFiles.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945656407",
                         "id": 22
                     }
                 ],
                 [
                     "700->Bold",
-                    "",
+                    "700->Bold",
                     "700->Bold",
                     "translatingFiles.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945656407",
                         "id": 23
                     }
                 ],
                 [
                     "800->Heavy",
-                    "",
+                    "800->Heavy",
                     "800->Heavy",
                     "translatingFiles.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945656407",
                         "id": 24
                     }
                 ],
                 [
                     "900->Heavy",
-                    "",
+                    "900->Heavy",
                     "900->Heavy",
                     "translatingFiles.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945659486",
                         "id": 25
                     }
                 ],
                 [
                     "Normal->Regular",
-                    "",
+                    "Normal->Regular",
                     "Normal->Regular",
                     "translatingFiles.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945669899",
                         "id": 26
                     }
                 ],
                 [
                     "Black->Heavy",
-                    "",
+                    "Black->Heavy",
                     "Black->Heavy",
                     "translatingFiles.po",
                     {
+                        "creator": "xulihang",
+                        "createdTime": "1544945669899",
                         "id": 27
                     }
                 ],
