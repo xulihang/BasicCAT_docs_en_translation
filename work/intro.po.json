@@ -10,7 +10,7 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196447",
+                        "createdTime": "1546575317332",
                         "id": 2
                     }
                 ],
@@ -21,7 +21,7 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196483",
+                        "createdTime": "1546575317345",
                         "id": 3
                     }
                 ],
@@ -32,7 +32,7 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196527",
+                        "createdTime": "1546575317358",
                         "id": 3
                     }
                 ],
@@ -43,7 +43,7 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196561",
+                        "createdTime": "1546575317368",
                         "id": 4
                     }
                 ],
@@ -54,7 +54,7 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196563",
+                        "createdTime": "1546575317377",
                         "id": 5
                     }
                 ],
@@ -65,7 +65,7 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196565",
+                        "createdTime": "1546575317386",
                         "id": 6
                     }
                 ],
@@ -76,18 +76,18 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196603",
+                        "createdTime": "1546575317394",
                         "id": 7
                     }
                 ],
                 [
                     "划词取义",
-                    "Select words to get meanings.",
+                    "Select words to get meanings",
                     "划词取义",
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196636",
+                        "createdTime": "1546575317401",
                         "id": 8
                     }
                 ],
@@ -98,7 +98,7 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196678",
+                        "createdTime": "1546575317408",
                         "id": 9
                     }
                 ],
@@ -109,7 +109,7 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196715",
+                        "createdTime": "1546575317424",
                         "id": 10
                     }
                 ],
@@ -120,7 +120,7 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196743",
+                        "createdTime": "1546575317446",
                         "id": 11
                     }
                 ],
@@ -131,7 +131,7 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196775",
+                        "createdTime": "1546575317452",
                         "id": 12
                     }
                 ],
@@ -142,8 +142,19 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196803",
+                        "createdTime": "1546575317468",
                         "id": 13
+                    }
+                ],
+                [
+                    "导出带备注的Markdown文件",
+                    "Export to markdown with notes",
+                    "导出带备注的Markdown文件",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1546575317485",
+                        "id": 14
                     }
                 ],
                 [
@@ -153,8 +164,8 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196839",
-                        "id": 14
+                        "createdTime": "1546575317508",
+                        "id": 15
                     }
                 ],
                 [
@@ -164,8 +175,8 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196877",
-                        "id": 15
+                        "createdTime": "1546575317516",
+                        "id": 16
                     }
                 ],
                 [
@@ -175,8 +186,8 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196909",
-                        "id": 16
+                        "createdTime": "1546575317528",
+                        "id": 17
                     }
                 ],
                 [
@@ -186,8 +197,8 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196951",
-                        "id": 17
+                        "createdTime": "1546575317537",
+                        "id": 18
                     }
                 ],
                 [
@@ -197,8 +208,8 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945196998",
-                        "id": 18
+                        "createdTime": "1546575317547",
+                        "id": 19
                     }
                 ],
                 [
@@ -208,22 +219,34 @@
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945197031",
-                        "id": 19
+                        "createdTime": "1546575317563",
+                        "id": 20
                     }
                 ],
                 [
-                    "使用Git进行版本控制",
-                    "Version Control Using Git",
-                    "使用Git进行版本控制",
+                    "支持在线共享翻译记忆与术语",
+                    "Sharing translation memory and term online",
+                    "支持在线共享翻译记忆与术语",
                     "intro.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1544945197071",
-                        "id": 20
+                        "createdTime": "1546575389735",
+                        "id": 21
+                    }
+                ],
+                [
+                    "使用Git进行版本控制与团队协作",
+                    "Version Control and Collaboration Using Git",
+                    "使用Git进行版本控制与团队协作",
+                    "intro.po",
+                    {
+                        "creator": "xulihang",
+                        "createdTime": "1546575405515",
+                        "id": 22
                     }
                 ]
             ]
         }
-    ]
+    ],
+    "seg_enabled": false
 }

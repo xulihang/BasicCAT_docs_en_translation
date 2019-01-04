@@ -1,0 +1,2421 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tmx version="1.4">
+    <header>
+        <creationtool>BasicCAT</creationtool>
+        <creationtoolversion>1.0.0</creationtoolversion>
+        <adminlang>zh</adminlang>
+        <srclang>zh</srclang>
+        <segtype>sentence</segtype>
+        <o-tmf>BasicCAT</o-tmf>
+    </header>
+    <body>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT 使用手册</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT Documentation</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT会根据片段修改的时间自动解决冲突，基本不会发生冲突的情况。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT automatically resolves conflicts according to the creation time of segment's translation. You will almost encounter no conflicts.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT会记录片段的修改历史，点击菜单Edit-&gt;Show segment history即可查看历史，其中的用户名即版本控制设置中添加的用户名。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT will record segment history. Click the menu Edit-&gt;Show segment history to view the history, where the user name is the user name added in the version control settings.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT分别读取designmap.xml文件和Spreads文件，获得story文件在原文中的显示顺序，然后对其文本进行提取。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT reads designmap.xml and spreads files to get the order of stories shown in the document and extracts texts from story files.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT利用 `Language Tool &lt;https://www.languagetool.org/&gt;`_ 作为语言检查的后端。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT uses `Language Tool &lt;https://www.languagetool.org/&gt;`_  to check language errors.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT利用SRX分割标准对原文进行分割。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT uses the SRX segmentation standard to segment the text.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT利用opennlp自然语言处理工具对词型进行还原，避免保存的是词语的复数形式而匹配不到词语的单数形式等问题。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT uses opennlp to lemmatize words. So, if you add a term in its plural form, BasicCAT can detect its singular form in another segment.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT可以在本地生成git仓库，添加remote uri和账号密码后即可把本地的记录上传到远程，并与其它用户进行协作。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT can build a local git repository and upload it to a remote repository when the remote uri and account info are set. </seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT对不需要显示的格式标签进行了隐藏处理，如果合并的片段带标签，也会进行提示。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT hides format tags when possible. So if segments contain hidden tags, there will be a message box as below.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT并没有直接支持Word文档，但可以通过okapi将word转换为xliff来进行翻译。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT does not directly support Word documents, translation. We can use okapi to convert docx to xliff to translate.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT支持定义快速填充项目，在翻译时使用快捷键Ctrl+Q或者点击菜单Edit-&gt;Show quickfill dropdown来显示快捷输入用的下拉列表。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT supports quickfill. You can use the shortcut key CTRL+Q or click the menu "Edit-show quick fill dropdown" to display a dropdown list of quickfill items.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT支持导出翻译的内容至Word中，利用Word的审校功能进行审校。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT can export translated contents to docx files and use Word to review.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT支持自动备份，可以在设置界面设置间隔多少时间备份一次项目文件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT supports auto backup. You can set up its time interval.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT是一款开源的计算机辅助翻译软件，旨在为译员提供简单实用的翻译工具。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT is an open source computer-aided translation tool, which aims at providing a simple and useful tool for translators.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT的翻译记忆库分为项目记忆库和外部记忆库。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>There are two types of translation memory in BasicCAT. One is project memory and one is external memory.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT目前支持开发机器翻译插件和文件过滤器插件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT currently supports two kinds of plugins. One is machine translation plugin and the other is filter plugin.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT自带了PDF转文字的工具，可以通过菜单栏Tools-&gt;PDF2TXT打开。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT has a PDF to Text tool. It can be accessed by menu "Tools-&gt;PDF2TXT".</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT自带的Git，支持每次执行保存时在项目文件夹执行一次git commit操作。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT comes with git and can execute git add and git commit every time the project is saved.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT里翻译好后导出翻译记忆，导入Felix。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>After the translation is done, export the translation memory to TMX and import it into Felix.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>BasicCAT预置了以下9种机器翻译引擎的API的支持：</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT has a built-in support for 7 machine translation services:</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>CAT软件利用这一格式存储从docx、html、idml等格式文件提取出来的文本，翻译完成后再利用这一格式文件生成目标文件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>CAT tools often use this format to store extracted text from files like docx, html and idml. When translation is done, CAT tools will generate target files based on XLIFF files.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>Felix是微软Office上运行的一套宏，可以在Word中利用翻译记忆完成翻译，一切操作都在Word中进行。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Felix is a set of macros running on Microsoft Office. You can translate directly in Word and use translation memory.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>Fonts.xml保存了字体信息，Styles.xml保存了样式信息。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Fonts.xml stores font info and Styles.xml stores styles info.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>GitHub操作示例</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Using GitHub</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>GitHub是一个流行的Git托管平台，我们可以基于它进行协作。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>GitHub is a popular Git hosting platform. We can collaborate upon it.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>IDML其实是一个zip压缩文件，里面的文件结构如下：</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>An IDML file is a compressed file in nature. Its structure is as follows.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>IDML文件</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>IDML Files</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>IDML文件中的样式分为全局样式和本地样式，全局样式存储在styles.xml文件中，story文件通过AppliedParagraphStyle和AppliedCharacterStyle保存对应的全局样式名，而本地样式被定义在属性和Properties元素里，比如PointSize、FontStyle等。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>There are two types of style in IDML. One is global style and the other is local style.  Global styles are stored in Styles.xml. Story files use AppliedParagraphStyle and AppliedCharacterStyle attributes to mark global styles. Local styles are defined in the attributes and the properties element in story files, like PointSize and FontStyle.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>IDML是Adobe InDesign使用的基于XML的文件格式。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>IDML is an XML based file format used by Adobe InDesign.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>Language Tool是一款开源的拼写和语法检查器。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Language Tool is an open source spelling and grammar checker.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>Linux和macOS(homebrew)用户可以直接安装tesseract-ocr这个包，并下载对应语言的模型文件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Linux and macOS(with homebrew) users can install tesseract-ocr directly. You may need to download extra language models.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>Markdown文件可以使用\\ `Pandoc &lt;http://www.pandoc.org/&gt;`_\\ 进一步转换成Word文件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Markdown files can be converted to word files later using `Pandoc &lt;http://www.pandoc.org/&gt;`_.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>MyMemory每天10000词；</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>MyMemory has a limit of 10,000 words per day;</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>PDF中的文字是没有段落信息的，所以默认提取出来的每行文字后面都有回车，PDF2TXT提供一个reflow功能，可以自动去除多余的回车。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Texts in PDF do not have paragraph info. They are just fixed dots in a page. The extracted text may have newline at the end of each line. PDF2TXT provides "reflow" function to remove extra newlines.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>PDF文件</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>PDF Files</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>PDF文件往往是由另一种格式的文件生成的，比如docx、idml等，如果能找到源文件是最好的。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>PDF files are often generated by files in another format, such as docx, idml, etc. It's better to handle the source file directly.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>PDF文件是较难处理的格式，可以用Word、ABBYY、Solid Document Converter等工具将其转换为Word，但原来的格式往往不能得到很好的保留。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>PDF file is a difficult format to process. It can be converted to docx by tools such as Word, ABBYY, Solid Document Converter, etc. But the original format cannot be well preserved.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>PO文件</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>PO Files</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>PO是和xliff类似的一种格式，最初是GNU用来本地化C语言程序的。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>PO is a format similar to XLIFF. It is designed to localize C programs at first.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>XLIFF利用继承自opentag的抽象占位符标签和继承自tmx的封装标签来表示特殊样式。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>XLIFF uses abstract placeholder tags inherited from opentag and encapsulating tags inherited from TMX to represent special formats.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>XLIFF文件</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>XLIFF Files</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>XLIFF是OASIS组织制定的标准，可以作为一种中间格式，在不同的翻译软件之间使用。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>XLIFF is a standard formulated by the OASIS organization and can be used as an intermediate format between different translation software.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>XLIFF是处理提取出来的待翻译文本的一种XML格式。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>XLIFF is an XML format for processing extracted text to be translated.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>Yandex每天1百万词，每月不超1千万词。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Yandex has a limit of 1million words per day and 10million words per month.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>`BasicCAT &lt;https://github.com/xulihang/BasicCAT/&gt;`_ 是遵循GPLv2协议的开源项目，欢迎大家为项目做贡献。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>`BasicCAT &lt;https://github.com/xulihang/BasicCAT/&gt;`_ is an open source project licensed under GPLv2. Contributions to help BasicCAT grow are appreciated.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>`LanguageTool 4.3 下载 &lt;https://www.languagetool.org/download/LanguageTool-4.3.zip&gt;`_</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg> `LanguageTool 4.3 Download &lt;https://www.languagetool.org/download/LanguageTool-4.3.zip&gt;`_</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>`MyMemory &lt;https://mymemory.translated.net/doc/spec.php&gt;`_</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>  `MyMemory &lt;https://mymemory.translated.net/doc/spec.php&gt;`_</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>`Okapi &lt;http://okapiframework.org/&gt;`_ 是一套开源跨平台的翻译组件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>`Okapi &lt;http://okapiframework.org/&gt;`_ is a set of translation components.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>`Yandex &lt;https://tech.yandex.com/translate/&gt;`_</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg> </seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>`在此 &lt;http://okapiframework.org/wiki/index.php?title=Filters&gt;`_ 查看Okapi支持的文件格式。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Visit `here &lt;http://okapiframework.org/wiki/index.php?title=Filters&gt;`_ to see what formats Okapi supports.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>`小牛 &lt;https://niutrans.vip/index/niutrans/index.html&gt;`_</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>`Niutrans &lt;https://niutrans.vip/index/niutrans/index.html&gt;`_</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>`微软必应 &lt;https://azure.microsoft.com/services/cognitive-services/translator-text-api/&gt;`_</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>`Microsoft Bing &lt;https://azure.microsoft.com/services/cognitive-services/translator-text-api/&gt;`_</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>`搜狗 &lt;http://ai.sogou.com/ai-docs/api/fanyi&gt;`_</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>`Sogou &lt;http://ai.sogou.com/ai-docs/api/fanyi&gt;`_</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>`有道 &lt;http://ai.youdao.com/&gt;`_</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>`Youdao &lt;http://ai.youdao.com/&gt;`_</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>`点此下载思源宋体 &lt;https://github.com/adobe-fonts/source-han-serif/releases/download/1.001R/SourceHanSerif.ttc&gt;`_</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>`Download Source Han Serif &lt;https://github.com/adobe-fonts/source-han-serif/releases/download/1.001R/SourceHanSerif.ttc&gt;`_</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>`百度 &lt;http://api.fanyi.baidu.com/api/trans/product/prodinfo&gt;`_</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>`Baidu &lt;http://api.fanyi.baidu.com/api/trans/product/prodinfo&gt;`_</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>`腾讯翻译君 &lt;https://ai.qq.com/doc/nlptrans.shtml&gt;`_</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>`Tencent &lt;https://ai.qq.com/doc/nlptrans.shtml&gt;`_</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>`谷歌 &lt;https://cloud.google.com/translate/&gt;`_</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>`Google &lt;https://cloud.google.com/translate/&gt;`_</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>c0对应的是默认的没有特殊格式的样式，所以BasicCAT在显示的原文中对其进行隐藏。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>c0 is the default style that has no special formats. BasicCAT will hide it in the source text shown.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>designmap.xml是整个文件的大纲，spread文件是每个页面的结构，story文件则是spread里文本框存储的文本。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>designmap.xml defines the document's basic structure. A spread file includes the structure of one page or facing pages. A story file contains the text shown in a textframe.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>idml中的标签不是必须翻译的，如果不翻，BasicCAT会自动补充c0标签，保证译文不被忽略。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Translation of tags in IDML is not necessary. If there is no corresponding tags in target texts, c0 tags will be filled to make sure the translation will not be omitted.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>msgctxt后面是上下文信息，msgid存储原文内容，msgstr存储译文内容。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>msgctxt stores context info. msgid stores the source text and msgstr stores the target text.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>okapi生成的PO也使用了标签来表示特殊样式。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>PO files created by okapi also uses tags to represent formats.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>txt纯文本文件没有额外的标签信息，所有片段都支持合并与拆分。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>TXT files are pure text files. There are no extra tags and all the segments can be merged and splitted.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>word中的不同段落，indesign中不同的story文件都属于这种情况。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Different paragraphs in Word and different stories in InDesign belong to such case.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>一般InDesign的文件都保存为indd。indd是专有格式，不能被第三方软件进行解析，所以要翻译InDesign文件需要先将其转换为IDML文件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>InDesign's default file format is indd, which is a proprietary format. It cannot be opened by third-party applications.  In order to translate InDesign documents, Indd files have to be converted to IDML files.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>上例中 ``p16`` ， ``c0`` 中的数字对应的styles.xml文件中某个全局样式的顺序。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>The numbers in ``p16`` , ``c0``  correspond to the rank of some global  style in styles.xml.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>上述内容在BasicCAT中是这样显示的，和xliff一样，对片段中的开头结尾处的成对标签或单个标签进行了隐藏：</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Below is how it looks when translating the PO file in BasicCAT. Like XLIFF, Single tag and paired tags at both sides of the segment will be hidden.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>上述内容在BasicCAT中是这样显示的，对片段中开头结尾处的成对标签或单个标签进行了隐藏：</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>When the XLIFF file is opened by BasicCAT, the result looks like below. Single tag and paired tags at both sides of the segment will be hidden.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>上面的story文件，BasicCAT将其转换为以下带标签的文本。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT will convert the story file above into the tagged text below.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>下载后解压至任意位置，然后打开BasicCAT，点击菜单Tools-&gt;Server Launcher，打开服务启动器的窗口，选择存放languagetool-server.</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Unzip the downloaded, open BasicCAT, click menu "Tools-&gt;Server Launcher", and you can setup the path to the folder containing the file named languagetool-server.jar.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>下载后解压至任意位置，然后打开BasicCAT，点击菜单Tools-&gt;Server Launcher，打开服务启动器的窗口，选择存放languagetool-server.jar这一文件的文件夹。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Unzip the downloaded, open BasicCAT, click menu "Tools-&gt;Server Launcher", and you can setup the path to the folder containing the file named languagetool-server.jar. </seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>下载完成后解压corenlp-full的zip文件到任意位置，把中文模型文件放入解压的目录，然后点菜单Tools-&gt;Server Launcher，选择文件夹位置后点Start CoreNLP Server按钮启动。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Unzip CoreNLP and put the Chinese model jar in the same folder. Use Server Launcher to start the server.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>下面是一个Story文件的内容：</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Below is what a story file looks like:</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>下面是利用正则表达式将英文引号替换成中文引号的例子。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Below is an example of replacing English quotation marks to Chinese quotation marks.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>下面讲讲如何利用BasicCAT翻译docx的文本，然后利用felix进行回填。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Here is how we use BasicCAT to translate the text of docx files and use Felix to fill the translation in Word.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>之后将这个项目分发给其它用户即可。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Then, you can package the project to other translators.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>之后用BasicCAT打开一个项目，在项目设置-团队协作里设置远程仓库。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Use BasicCAT to open a project and set the remote repository.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>交互式机器翻译</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Interactive Machine Translation</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>从源文件生成xliff或者po文件</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Create XLIFF or PO files from source files</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>从生成的项目导出目标文件</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Generate target files from the previously created okapi project</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>以下是教程idml部分的范例文件用okapi提取出来的po文件的内容：</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Below is PO content extracted by okapi from the example IDML story file.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>以下是教程idml部分的范例文件用okapi提取出来的xliff文件的内容：</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Below is the XLIFF extracted by okapi from the story file example in IDML part.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>但是抽象之后，原文标签中的含义也被隐去了。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>But after this abstraction, we cannot tell what function this tag has.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>你也可以用git reset命令回退到之前的历史版本。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can use git reset to return to a previous version.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>你也可以通过菜单手动进行git的相关操作。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can also use the menu to manually do git actions.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>你可以一条一条地重新确认，也可以直接用审校的内容替换原来的翻译。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can check the imported result one by one or replace the original translation with the review directly.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>你可以修改程序所在目录下key.txt来添加一个访问密钥。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can modify the key.txt in program's folder to setup an access key.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>你可以通过修改项目文件夹下的config文件夹里的dictList.txt添加其它在线词典。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can add other online dictionaries by modifying the dictList.txt in the project's config folder.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>你需要在偏好设置里先设置好git账户。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You need to setup git accounts in preference settings first.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>使用Git进行版本控制</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Version Control Using Git</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>共享翻译记忆、术语</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Sharing translation memory and term</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>关于felix的操作，可以访问\\ `官网 &lt;http://felix-cat.com/&gt;`_\\ 或者阅读这篇文章：`在Office里运行的CAT软件 &lt;http://blog.xulihang.me/CAT-Tools-work-with-microsoft-office/&gt;`_ 。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>About how to use Felix, visit its `homepage &lt;http://felix-cat.com/&gt;`_  to learn more.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>关于tesseract的安装，Windows可以 `在此 &lt;https://pan.baidu.com/s/1Pij20PPfVLUqXcBGc4ueSg&gt;`_ 下载一份程序，运行PDF2TXT时会提示设置tesseract的路径，选择即可。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>About the installation of tesseract, Windows users can download a copy from `here &lt;https://pan.baidu.com/s/1Pij20PPfVLUqXcBGc4ueSg&gt;`_\ . PDF2TXT will ask for the path to tessearct.exe.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>关于正则表达式，可以参考\\ `这里 &lt;http://www.runoob.com/regexp/regexp-tutorial.html&gt;`_\\ 的教程。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can learn more about regular expressions at this `website &lt;http://www.runoob.com/regexp/regexp-tutorial.html&gt;`_\ .</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>其中c3标签对文字进行了加粗。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>c3 tag add bold font style to the text.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>其它</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Other</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>其它用户要想修改远程仓库，还需要获得push的权限。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Other translators need to have their own GitHub account and be authorized push permission to the repository.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>其它需要付费使用，小牛和有道注册时会附赠百万词的额度。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Other services are paid services. Niutrans and youdao will give away 1million words upon registry.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>其对应关系如下：</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Font weight's names of English fonts will be converted to names in Source Han Serif as follows.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>划词取义</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Select words to get meanings</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>划词检索和自动完成功能需要至少配置一个机器翻译才能使用。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You need to set up at least one machine translation to use selecting words to get meanings and autocomplete functions.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>利用Alt+G快捷键，可以快速地进行译文的替换。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can use the shortcut key ALT+G to quickly fill translations.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>利用BasicCAT的服务器端程序，可以架设用于共享翻译记忆和术语的服务。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>The BasicCAT's server program is needed to setup a translatin memory and term sharing service.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>利用Felix翻译Word文件</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Using Felix to Translate Word Files</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>利用Okapi翻译其它格式文件</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Using Okapi to Translate Files in Other Formats</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>利用机器翻译和在线词典API，BasicCAT提供划词检索功能。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT can show the meanings of selected text based on machine translation and online dictionary.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>匹配率须在0.5到1.0之间。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>The rate should be between 0.5 to 1.0.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>占位符标签：</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Abstract placeholder:</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>取名BasicCAT，一是因为它简单易用，二是因为它使用Basic语言编写，普通人花上一段时间学习后也能掌握，从而在BasicCAT源代码的基础上修改出适合自己需要的软件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>The name is BasicCAT, because of its simplicity and its programming language—Basic. Basic is easy to learn and everyone can build a suitable CAT tool based on BasicCAT's source code.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>句段分割与合并</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Merge and split segments freely</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>另一种方式则是使用Felix CAT。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Another way is to use Felix CAT.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>另外段落标签和文本内容为非文本的标签也可以进行隐藏。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Paragraph tags and tags without texts can also be hidden.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>可以在设置里设置执行git commit的用户信息。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can set git commit's user information in Preferences.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>可以用浏览器访问 `&lt;http://127.0.0.1:8081/v2/check?text=a%20example&amp;language=en-US&gt;`_ 来判断服务是否运行。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can visit `&lt;http://127.0.0.1:8081/v2/check?text=a%20example&amp;language=en-US&gt;`_ to check whether the server is running.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>可以用浏览器访问 `&lt;http://127.0.0.1:9000&gt;`_ 来判断服务是否运行。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Visit `&lt;http://127.0.0.1:9000&gt;`_ to see whether the server is running.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>可以设置翻译记忆的最低匹配率和选择使用哪个机器翻译引擎。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can set the lowest match rate and which machine translation service to use.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>可以通过点击菜单Edit-&gt;Mark the current segment as non-translatble进行设置。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Use Menu Edit-&gt;Mark the current segment as non-translatable to do this.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>含有备注的片段的译文编辑框会显示一圈绿色。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Segments containing notes will have textarea with gray border.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>和Language Tool一样，还需要设置启用自动完成。点击菜单Options-&gt;Preferences，进入Autocomplete页面，勾选启用自动完成。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Like setting Language Tool, you also need to check the "Enable Autocomplete" checkbox to use autocomplete.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>和上一条操作办法相近，在所需导出的文件上右键，点击Export to-&gt;Markdown with notes，可以导出Markdown文件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Like the previous export, right click on the filename and click export to-&gt;markdown with notes to get a markdown file.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>因为离线词典往往具有版权问题，所以BasicCAT选择了集成在线词典。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BasicCAT integrates online dictionaries as offline dictionaries have copyright issues.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>团队协作</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Collaboration</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>在BasicCAT中翻译xliff中带格式的内容时，会显示各种标签内容。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>When translating XLIFF files, there will be tags in the source text.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>在一个片段翻译完成，按下回车切换到下一片段后，会对上一片段进行检查。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>When a segment is translated and you press "Enter" to switch to the next one, it will check the previous segment.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>在出版社翻译InDesign文件，一般交给译员一个PDF文档，译员将译文排版成一个Word，然后交给排版人员在InDesign中进行替换。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>When translating InDesign documents, publishing houses often give the PDF document to the translator. The translator types the translation into a Word and then gives it to the typesetter to replace sources texts with target texts in InDesign.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>在原文中选中一个单词后，点击菜单Edit-&gt;Show online dictionary dropdown，或者使用快捷键Ctrl+D，会出现包含一串在线词典名字的下拉列表。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Select a word in the source text and click menu "Edit-&gt;Show online dictionary dropdown" or use shortcut key CTRL+D. A dropdown list of online dictionary names will appear.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>在原文右边的编辑框中输入文字即可开始翻译，一个片段完成后按回车切换到下一片段。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Input your translation in the right textarea. After one segment's translation is done, press "Enter" to go to the next one.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>在所需导出的文件上右键，点击Export to-&gt;bi-paragraphs，可以导出双语段落对照文本。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Right on the file, click "Export to bi-paragraphs" to do this.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>在所需导出的文件上右键，点击Export to-&gt;docx for review，可以导出docx文件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Right click on the file and click "Export to docx for review" to export the docx file.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>在文件名上右键，点击Import form review。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Right click on the file and click "Import from review".</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>在显示的术语条目上右键，可以查看更多信息和修改历史。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Right click on the term item to view more info and its history.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>在线词典</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Online Dictionary</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>在翻译过程中遇到术语，可以在原文和译文中选中对应的文本，然后点击术语区的Add Term添加术语。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>When a sentence contains terms, you can select the corresponding texts in the source and the translation to add terms.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>在遇到相似的片段时，便会在下方显示。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>When translating a similar segment, it will appear in the lower area.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>基于Git的协作并不同步翻译记忆与术语，只同步工作文件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Collaboration using git will not sync translation memory and terms. It only syncs work files.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>基于Git进行团队协作</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Using Git to collaborate</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>备份的文件会保存在项目的bak文件夹里。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>The backup files will be stored in the project's bak folder.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>外观设置</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Appearance Setting</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>如果PDF的文字可以提取，那可以直接提取出来。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>If PDF's text can be extracted, it can be extracted directly by pressing the "strip" button.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>如果不行，便使用开源的OCR软件tesseract进行识别。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>If not, the open source OCR software Tesseract will be used.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>如果你想使用运行在远程服务器的LanguageTool，可以通过修改链接来调用。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can change the link to use Language Tool running on a remote server.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>如果匹配到术语，也可以设置包含进去。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Matched terms can also be included.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>如果句段属于不同的文件或者翻译单元，将不能进行合并。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>If two segments belong to different files or translation units, they cannot be merged.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>如果您会开发软件，可以帮助开发插件、修改项目代码。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>If you are a developer, you can develop plugins or make a pull request to improve BasicCAT's code.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>如果您会翻译，可以帮助翻译网站、文档以及程序的界面，同样通过提交issues来提交请求。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>If you want to translate BasicCAT's website, documentation or its interface, you can also open an issue to apply.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>如果您在使用过程中碰到问题，或者有什么建议，欢迎在项目的github页面提交issues。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>If you are a user and come across some issues or have some suggestions, you can open an issue in BasicCAT's github repository.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>如果想使用运行在远程服务器的corenlp，可以通过修改链接来调用。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Change the link to use a remote server.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>如果有错误，会在下方的功能区进行提示，并在输入框位置显示一个备选正确内容的下拉列表。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Errors will be shown in the lower area. A dropdown list containing the possible corrections will also be shown below the translation textarea.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>如果要同步到远程仓库，还可以设置密码。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>If you need to sync with remote repositories, you can set a password.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>如果要求保留格式却又没有源文件，只能翻译后试着重新排版。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>If you want to preserve the formats but do not have the source file, you have first translate text and do desktop publishing from anew.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>安装Git后，在项目文件夹执行git show可以查看最新一次保存做了哪些修改。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can use git show to see what the latest changes are. You have to install Git on your computer to do this.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>完成审校后，可以从Word文件将修改结果导回。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>When the review is done, you can import the result back.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>官网地址：https://stanfordnlp.github.io/CoreNLP/index.html</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Stanford CoreNLP Homepage: https://stanfordnlp.github.io/CoreNLP/index.html</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>客户端需要进行相关设置，设置完成后即可实时共享翻译记忆与术语。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Relevant settings are needed on the client side.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>密钥目前只支持单行内容。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>The key can be any one-line text.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>对于汉译英，还可以用于快速输入英文单词。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>As for Chinese to English translation, it can also be used to input English words quickly.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>导出Word以供审校</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Export Word for review</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>导出Word供外部审校</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Export Word for external review</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>导出双语对照文本</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Export bilingual paragraph files</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>导出双语段落对照文件</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Export bilingual paragraph files</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>导出带备注的Markdown文件</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Export to markdown with notes</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>封装标签：</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Encapsulation:</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>将Word转存为TXT，导入BasicCAT中翻译。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Export Word to TXT to translate in BasicCAT.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>工具支持添加页码信息，还可以针对InDesign生成的对页进行处理。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can add page number to the extracted text. It can also add facing pages number like Page 4-5.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>已经翻译的部分会用译文进行替代。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Translated source text will be replaced by translation.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>帮助BasicCAT项目发展</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>How to Contribute</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>常见机器翻译服务的API调用</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Support Machine Translation Services Provided by Google, Microsoft, etc.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>平时在Word里可以设置汉字的加粗是通过软件算法实现的，而IDML中是通过设置字重来实现的。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>The bold style of Chinese characters in Word is achieved by software algorithm, but IDML uses font weight to do this.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>快速入门</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Getting Started</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>快速填充</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Quickfill</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>快速填充的设置需要点击菜单Project-&gt;Project Settings，切换到Quickfill栏目。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Click menu "Project-&gt;Project Settings" to set up quickfill.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>您需要申请翻译API以实现调用，每个机器翻译申请的链接已经附在上面的列表中，其中MyMemory只需要配置一个email地址即可使用。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You have to apply for API keys to use these translation services. Links to apply have been included in the MT list above. MyMemory does not require API key and only needs to give an email address.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>我们也可以用它来快速输入内容。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>We can also use it to input content quickly.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>我们在Project Files上右键，可以添加文件或者添加文件夹。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Right click "Project Files" to add files or add folders.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>我们要关注的主要是designmap.xml文件、Spreads文件夹、Stories文件夹和Resources文件夹的内容。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>What relevant to us are designmap.xml, spreads folder, stories folder and resources folder.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>所以平时添加术语最好还是添加原形，方便导入其它项目。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>So when adding a term, it is better to add in its original form.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>所以，为了保证英译汉时，标签的效果在生成的译文中也有效，BasicCAT采用具有7种字重的思源宋体作为中文的显示字体，并将英文的字重转换为对应的思源宋体的字重。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>So, to assure that the tags will make effects for English to Chinese translation projects, BasicCAT uses Source Han Serif as IDML's Chinese font. Source Han Serif has 7 font weights.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>所以，为了在生成的idml文件中显示中文，需要安装思源宋体。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>So, you need to install Source Han Serif to display Chinese in InDesign.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>打开Rainbow，把要翻译的源文件拖拽进去。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Open Rainbow and drag source files into the window.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>打开项目后在左侧会显示一列项目，可以操作项目文件、翻译记忆、术语库，查看统计信息和预览。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>When a project is opened, a list of item will show in the left area. You can manage project files, translation memory, term base, view statistics and preview.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>抽象占位符标签的好处是针对不同格式，抽象出来的内容可以一样。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>The placeholder way abstracts tags to its preset placeholder tags.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>按Open in browser可以使用本地浏览器访问该页面。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Press "Open in browser" to open the page in local browsers.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>搜索与替换</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Search and Replace</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>支持使用正则表达式。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Regular expressions are supported.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>支持利用翻译记忆与机器翻译进行全文预翻译</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Pretranslate based on translation memory and machine translation</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>支持导入TMX格式和Tab分割的txt文件，txt文件要求原文在前，译文在后，以tab进行分割。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can import TMX files or tab-delimited txt files. For txt files, the source should be in the first row and the target should be in the second. </seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>支持常见源文件格式：txt, idml, xliff, gettext po</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Support  common file formats: TXT, idml, xliff, gettext Po</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>支持翻译记忆标准TMX、术语管理标准TBX和句段分割标准SRX</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Support three translation standards: TMX, TBX and SRX</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>新建项目</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>New Project</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>新建项目后要进一步操作需要先保存项目。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Save the project before further operations.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>更多内容可以见GitHub的\\ `帮助文档 &lt;https://help.github.com/&gt;`_\\ 。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>See the `GitHub Help &lt;https://help.github.com/&gt;`_ to learn more.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>更多功能可以通过安装Git桌面客户端来实现。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>More functions can be realized by installing a git desktop client.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>最新版的InDesign生成的文件要想给老版本的InDesign打开，往往便要使用IDML格式。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Documents made by the latest version of InDesign have to be converted to IDML for use in old versions of InDesign.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>最终，上述内容在BasicCAT中是这样显示的：</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>When the example story is opened by BasicCAT, the result looks like this:</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>有用于检查译文质量的checkmate、修改句段分割规则的Ratel，还有用于执行各种翻译与本地化任务的Rainbow。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>It has Checkmate to check translation quality, Ratel to edit segmentation rule and Rainbow to do all kinds of translation and localization tasks.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>服务器程序运行的方法（需要安装java8以上版本）：</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>How to run the server program (requires java8+):</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>术语的导入和翻译记忆的导入类似，支持的文件类型是TBX和Tab分割的TXT文件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Importing terms is much the same as importing translation memory. TBX and tab-delimited txt files are supported.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>术语的管理界面也和翻译记忆的类似，不同之处在于术语可以添加标签和备注进行管理。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Term manager is also similar to TM manager. The difference lies in that tags and notes can be added for terms.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>术语管理</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Terminology Management</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>机器翻译</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Machine Translation</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>机器翻译的API服务都有使用限制，百度和微软每个月200万词免费额度；</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>These translation services have usage limits. Baidu and Bing have a 2million limit per month;</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>查看片段历史</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>View segment history</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>查看项目统计信息</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Statistics</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>查看预览</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Preview</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>标签内容如果不翻，生成的译文中会自动在结尾处补上缺失的标签，但有可能导致译文内容缺损。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>If tags are not put in the target text, BasicCAT will fill them at the end of target text. But this may result in incomplete content.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>模糊匹配到外部记忆库的片段时，会在下方显示，并显示来自哪个记忆库文件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>When a segment from external translation memory is matched, a filename will show to indicate where that match comes from.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>此时可以选择继续进行合并，但可能会显示出较为复杂的标签。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can choose to continue, and the merged source text may contains complex tags.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>段落信息保存在ParagraphStyleRange这个标签里，一个ParagraphStyleRange标签可以包含很多CharacterStyleRange标签，里面是具体的文本。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Paragraph info is stored in the ParagraphStyleRange tag. One ParagraphStyleRange tag can include many CharacterStyleRange tags which include texts.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>每个功能分区都已在图中标出。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Every function area is marked out in the picture.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>每次请求git push时，程序会自动从远程仓库获取最新的变动，并更新本地文件，然后将本地的修改进行上传。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>When requesting a git push, the program will fetch the latest changes and update local files. Then new changes in the local repo will be uploaded.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>比如html、rtf中表示加粗，html是 ``&lt;b&gt;`` ，而rtf中是 ``\\b`` ，抽象之后都变成了g标签，而且显示的内容更少。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>To indicate bold, HTML uses ``&lt;b&gt;`` and RTF uses ``\\b``. They all become ``&lt;g&gt;`` in XLIFF. It also shows less tags info.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>比如rst是restructuredText的缩写，设置自动更正后，每次输入rst，内容就会自动变成restructuredText。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>For example, "rst" is the abbreviation of "restructuredText". When AutoCorrect is setuped, we can input "rst" the get "restructuredText".</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>比如对于This is **bold**，在xliff中有两种表示方法。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>For example, there are two ways to represent "This is **bold**." in XLIFF.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>比如英译汉时需要输入中文的标点符号，可以设置错误地输入英文标点符号时自动更正为中文标点。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>For example, we need to input Chinese punctuations when doing an English to Chinese translation and autocorrect can replace English punctuations to Chinese punctuations.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>添加备注</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Add notes</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>添加外部翻译记忆</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Add External Translation Memory</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>添加文件</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Add File</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>添加文件后点击文件名，可以打开该文件进行翻译，并进入下图的界面。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Click filenames to open files. The interface will look like this when a file is opened.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>添加文件时会显示一个预览窗口，便于检验导入的内容是否正确。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>A preview window will appear when you add a new file.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击出现的下拉框中的项目可以把结果添加到译文输入框。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can fill the result to the translation textarea by clicking the item in the dropdown list.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击功能区的replacement项目或者下拉列表的项目可以替换译文中的错误为正确的内容。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>By clicking the replacement item in the lower area or the dropdown list item, the mistakes will be replaced to the right one.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击后会打开一个浏览窗口。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>A browse window will be opened.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击执行后，在目标位置会生成一个pack1文件夹，里面的work文件夹存放了生成的xliff等格式文件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>After the execution is done, there will be a folder named pack1 in the output path. In the work folder are generated files.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击菜单Edit-&gt;Search and Replace进入搜索与替换对话框，可以检索原文和译文的内容。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Click menu "Edit-&gt;Search and Replace" to open the Search and Replace Dialog. You can search in the source or the target text.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击菜单Options-&gt;Preferences进入设置界面，选择Machine Translation进行翻译API的配置。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Use Menu "Options-&gt;Preferences" to enter the setup interface.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击菜单Options-&gt;Preferences进入设置窗口，点击左边的Appearence，可以进行外观方面的设置。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Click menu "Options-&gt;Preferences" to enter the Preferences Window. Click "Appearance" in the left.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击菜单Project-&gt;Pre-translate打开对话框，选择使用翻译记忆或者机器翻译进行预翻译。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Use Menu "Project-&gt;Pre-translate" to open the dialog and choose TM or MT to do this.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击菜单Project-&gt;Project Settings，切换到AutoCorrect栏目进行设置。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Click menu "Project-&gt;Project Settings" to set up AutoCorrect.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击菜单Utilities-&gt;Translation Kit Creation，选择要生成xliff、po还是其它中间格式，选择生成的目标位置（默认为源文件所在目录）。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Click menu "Utilities-&gt;Translation Kit Creation". You can choose to generate XLIFF, PO or other intermediate formats. The default output path is the source files' folder.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击菜单Utilities-&gt;Translation Kit Post-processing，可以生成目标文件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Click menu "Utilities-&gt;Translation Kit Post-processing" to generate target files.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击菜单栏Edit-&gt;Show/Edit notes of the current segment进行查看或修改操作。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Use Menu Edit-&gt;Show/Edit notes of the current segment to view or edit notes.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击菜单栏Project-&gt;Project Settings，选中TM一栏设置可以进行外部翻译记忆的管理。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Click "Project-&gt;Project Settings", and in the "TM" page, you can manage external translation memory.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击该条结果即可将译文填充进译文输入框。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Click that match to fill the translation into the textarea.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击项目区的Preview，可以对翻译的内容进行预览。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Click "Preview" in the project area to preview the text.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击项目区的Statistics，可以显示项目的统计信息，比如原文字数、译文字数和完成的百分比等。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Click "Statistics" in the project area, you can see the statistics like words number and percentage completed.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>点击项目区的Translation Memory可以对翻译记忆进行检索，并进行导出、修改和删除等操作。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Click "Translation Memory" in the Project area to open TM Manager. You can search, export, edit or remove translation memories.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>然后添加manifest.rkm到Rainbow中。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Open Rainbow and drag manifest.rkm into it.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>然后点击Start LanguageTool Server的按钮后可以在本地运行LanguageTool的离线服务。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Press "Start LanguageTool Server" to run the server locally.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>片段合并与分割</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Merge and Split Segments</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>片段多为一个句子或者一个单独成段的短语。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>A segment can be a sentence or a phrase.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>片段操作</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Segments Manipulation</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>片段翻译完成后按回车，该条翻译的内容就会自动加入翻译记忆库。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>After you press "Enter" to finish one segment, the translation will be added to the translation memory.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>生成目标文件</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Generate target files</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>用Adobe Acrobat可以修改文字，但有诸多限制。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Adobe Acrobat can be used to modify text, but there are many limitations.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>百度网盘（备用）：https://pan.baidu.com/s/1LNW4IDw8Viz6RURmzqxI9Q</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>BaiduNetdisk (backup download): https://pan.baidu.com/s/1LNW4IDw8Viz6RURmzqxI9Q</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>目前仅支持设置编辑区的字体。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>For now, only setting of editing area's font is supported.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>目录</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Contents</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>简介</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Introduction</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>管理插件</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Managing Plugins</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>管理翻译记忆</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Manage Translation Memory</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>纯文本文件</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>TXT Files</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>翻译中碰到较难的句子，可以进行备注，记录为什么这样翻。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>If you come across difficult sentences, you can make notes on how you get the translation done.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>翻译各种格式的文件</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Translating All Kinds of Files</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>翻译完成后，把xliff等格式文件放回work文件夹。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>When the translation is done, put the translated files back into the work folder.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>翻译结束后，点击菜单File-&gt;Generate target files，即可在项目的target文件夹里生成目标文件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>When translation is done, use menu "File-&gt;Generate target files" to create translated files in the target folder.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>翻译记忆</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Translation Memory</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>翻译记忆中的原文、当前要翻译的原文和翻译记忆中的译文会在差异显示区显示。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>The source text in the translation memory, the source text of the current segment and the target text in the translation memory will show in the differences display area.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>翻译记忆的匹配率可以点击菜单栏Project-&gt;Project Settings进行设置。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Translation memory's match rate can be set in Project Settings.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>翻译过程中我们常常需要输入特殊的符号，或者需要多次输入同一串文本。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>We often have to input special characters or the same text many times.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>考虑到导入的外部术语库可能有上万条内容，为了优化匹配的速度，采用的HashMap的算法，只能对要翻译的原文进行词型还原。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>As an external term database may contains thousands of entries, BasicCAT uses a HashMap algorithm to match terms. Only the text in the source will be lemmatized. Terms in external termbases will not be lemmatized.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>而 ``&lt;c0 id=\"3\"&gt;`` 中的id属性则是story中characterstylerange的顺序，用于生成目标文件时读取本地样式。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>The id attribute of ``&lt;c0 id=\"3\"&gt;`` corresponds to the rank of characterstylerange in a story file. The number is used to read local styles when generating target files.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>自动备份</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Auto Backup</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>自动完成对原文进行分词，并利用斯坦福自然语言处理工具进行句法分析，提取短语，所得的片段利用机器翻译进行翻译，如果在翻译过程中输入的字是某个片段的开头，那这一片段的译文会以下拉列表的形式供用户选择是否使用。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Here is how autocomplete works: The source text is tokenized and parsed using Stanford NLP Tools. Then, words and phrases will be extracted and get machine translated. The results will be stored in the memory. When the user inputs a word that match the beginning of these segments, a dropdown list containing matched translation suggestions will show.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>自动完成（交互式机器翻译）</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Autocomplete (Interactive Machine Translation)</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>自动更正</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>AutoCorrect</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>自动更正是借鉴自Word的一项功能，可以检测输入的内容，对内容进行修正。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>AutoCorrect is inspired by Microsoft Word's function. It can detect the inputed text and correct spelling errors.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>英文字体一般有很多字重，比如特细、细、常规、粗等，而中文字体一般只有一种常规体。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>English fonts often have many font weights, like Extra Light, Light, Normal and Heavy, while Chinese fonts often have only one regular font weight.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>英译汉时常碰到前一片段和后一片段意思有重复，只需翻译后一片段的情况。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>When doing English to Chinese translation, it is common that the first segment and the second one have similar meanings.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>菜单栏点击File-&gt;New，选择建立英译汉(en to zh)、汉译英(zh to en)项目或者其它语言对的项目，会自动生成翻译记忆库和术语库等项目文件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Click "File"-&gt;"New", choose "en to zh" to create English to Chinese projects and "zh to en" to create Chinese to English projects. Choose other language pair to specify the source language and target language of the project. Translation Memory and Term Base will be created at the same time.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>要使用自动完成，需要下载斯坦福自然语言处理软件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>To use autocomplete, Stanford CoreNLP is needed.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>要使用语言检查，你需要先下载LanguageTool。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>To use language check, you need to download languagetool first.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>要翻译其它格式文件，我们主要需要使用Rainbow。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>To translate files in other formats, we need to use Rainbow.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>设置不可译片段</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Mark non-translatable segments</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>设置不可译的片段的编辑区会变成灰色不可用状态。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Textarea for non-translatable segments will be gray and not editable.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>该程序可以在BasicCAT的下载页面获取。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>The program is available in the BasicCAT's download page.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>语言检查</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Language Check</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>调用多种在线词典</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Online Dictionaries Integration</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>调用结果如下图。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>The result will show in the lower area.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>软件具有以下功能：</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>It has the following features:</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>这时可以设置前一片段为不可译片段。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can mark the first one as non-translatable and only translate the second one.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>这时，我们需要做的就是提取PDF的文字进行翻译。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>In such a case, what translators have to do is to extract the text from PDF.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>这样，生成译文时会自动忽略这一片段。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>When generating target files, non-translatable segments will be omitted.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>进入GitHub的仓库设置，点击左边的Collaborators然后添加要添加的GitHub账户。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>In the settings of the repository, click Collaborators on the left and add other translators' GitHub account.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>进入以下设置界面：</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Will see this setting page:</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>进入设置界面可以选择插件存放的文件夹，执行插件的增删操作。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can set the plugin folder and add or remove plugins in the Preferences.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>进行原文和译文、文件编码等设置。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Set the source language, target languages, file encoding, etc.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>进阶操作</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Advanced Features</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>选中想输入的释义后，按Add Selected可以填充进译文输入框。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Use "Add Selected" Button to fill selected text in the browser to the translation textarea.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>选择其它语言对时你也可以自己输入所需的遵循ISO639标准的语言代码，具体说明\\ `见此 &lt;http://www.basiccat.org/1-2-beta-has-multilanguage-support/&gt;`_\\ 。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can also enter the required language code that complies with the ISO 639 standard by yourself. See the detailed info `here &lt;http://www.basiccat.org/1-2-beta-has-multilanguage-support/&gt;`_.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>通过Word的Felix加载项操作界面进入Felix的设置界面，取消勾选Format标签下的勾选框，这样替换纯文本的翻译记忆时，不会修改原文的格式。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>In Word's add-in tab, you can access Felix's interface. In Felix's settings, uncheck the checkboxes in Format Tab. By doing this, when Felix replaces source text with target text, the original formats will be preserved.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>遇到下图这样的人名分割错误的情况，我们可以点击原文的末尾，然后按Delete键进行句段合并操作。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>If you come across a wrongly segmented name like below, you can move the cursor to the end and press "Delete" to merge the two segments.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>遇到下图这样需要在分号处进行分割的片段，将光标定位到分号后，按Enter键进行分割。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>When you need to split, like at the semicolon below, move the cursor to the semicolon and press "Enter".</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>除此之外，你还要设置启用语言检查。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>In addition, you need to check the "enable language tool" checkbox in settings.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>需要下载corenlp和中文的模型文件。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>CoreNLP and the Chinese model jar are needed.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>需要在设置中勾选这一功能，并配置至少一个机器翻译。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You need to check this function in settings and enable at least one machine translation service.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>需要在项目设置里设置远程仓库地址并选择是否每次执行保存操作时把修改上传到远程仓库。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You need to set the remote uri in the project settings and choose whether to upload the changes to the remote everytime you perform a save operation.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>项目记忆库存储项目文件的翻译记忆，而外部记忆库显示外部导入的翻译记忆。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Project memory stores memories created when translating the project's files, while external memory show imported translation memory.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>预翻译</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>Pre-translate</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>预翻译指利用翻译记忆或者机器翻译预先对全文进行翻译。</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>You can use translation memory or machine translation to pre-translate the whole text.</seg>
+            </tuv>
+        </tu>
+        <tu>
+            <tuv xml:lang="zh">
+                <seg>首先建立一个空的仓库：</seg>
+            </tuv>
+            <tuv xml:lang="en">
+                <seg>First, create an empty repository.</seg>
+            </tuv>
+        </tu>
+    </body>
+</tmx>
