@@ -26,13 +26,13 @@
                     }
                 ],
                 [
-                    "BasicCAT预置了以下11种机器翻译引擎的API的支持：",
-                    "BasicCAT has a built-in support for 7 machine translation services:",
-                    "BasicCAT预置了以下11种机器翻译引擎的API的支持：",
+                    "BasicCAT预置了以下12种机器翻译引擎的API的支持：",
+                    "BasicCAT has a built-in support for 12 machine translation services:",
+                    "BasicCAT预置了以下12种机器翻译引擎的API的支持：",
                     "advancedFeatures.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1546574927676",
+                        "createdTime": 1559459996029,
                         "id": 4
                     }
                 ],
@@ -136,13 +136,13 @@
                     }
                 ],
                 [
-                    "`腾讯翻译君 <https:\/\/ai.qq.com\/doc\/nlptrans.shtml>`_",
-                    "`Tencent <https:\/\/ai.qq.com\/doc\/nlptrans.shtml>`_",
-                    "`腾讯翻译君 <https:\/\/ai.qq.com\/doc\/nlptrans.shtml>`_",
+                    "`腾讯云翻译 <https:\/\/cloud.tencent.com\/product\/tmt>`_",
+                    "`Tencent Cloud <https:\/\/cloud.tencent.com\/product\/tmt>`_",
+                    "`腾讯云翻译 <https:\/\/cloud.tencent.com\/product\/tmt>`_",
                     "advancedFeatures.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1546574927933",
+                        "createdTime": 1559460033001,
                         "id": 14
                     }
                 ],
@@ -498,13 +498,13 @@
                     }
                 ],
                 [
-                    "要使用语言检查，你需要先下载LanguageTool。",
-                    "To use language check, you need to download languagetool first.",
-                    "要使用语言检查，你需要先下载LanguageTool。",
+                    "要使用语言检查，你可以选择直接使用LanguageTool的API（默认地址：https:\/\/languagetool.org\/api\/v2\/check），或者下载LanguageTool后在本地运行。",
+                    "To use language check, you can either use the API provided by LanguageTool directly (default address: https:\/\/languagetool.org\/api\/v2\/check), or download LanguageTool and run it locally.",
+                    "要使用语言检查，你可以选择直接使用LanguageTool的API（默认地址：https:\/\/languagetool.org\/api\/v2\/check），或者下载LanguageTool后在本地运行。",
                     "advancedFeatures.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1546574928481",
+                        "createdTime": 1559460125185,
                         "id": 34
                     }
                 ],
@@ -548,7 +548,7 @@
                     "advancedFeatures.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1546575072074",
+                        "createdTime": 1544945740121,
                         "id": 37
                     }
                 ],
@@ -574,13 +574,13 @@
                     }
                 ],
                 [
-                    "如果你想使用运行在远程服务器的LanguageTool，可以通过修改链接来调用。",
-                    "You can change the link to use Language Tool running on a remote server.",
-                    "如果你想使用运行在远程服务器的LanguageTool，可以通过修改链接来调用。",
+                    "你还可以设置每次以下拉列表形式给出建议的最大数量，以免有的时候显示的建议太多。",
+                    "You can also set the maximum dropdown suggestions to avoid  showing too many suggestions.",
+                    "你还可以设置每次以下拉列表形式给出建议的最大数量，以免有的时候显示的建议太多。",
                     "advancedFeatures.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1546574928689",
+                        "createdTime": 1559460292746,
                         "id": 39
                     }
                 ],
@@ -690,7 +690,7 @@
                     "advancedFeatures.po",
                     {
                         "creator": "xulihang",
-                        "createdTime": "1546575115613",
+                        "createdTime": 1544946044161,
                         "id": 48
                     }
                 ],
